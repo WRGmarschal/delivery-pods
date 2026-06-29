@@ -81,8 +81,8 @@
   .hero .lockup .word{ font-size:clamp(30px,3.6vw,46px); font-weight:300; letter-spacing:-.02em; }
   .hero .lockup .pw{ display:block; font-size:11px; letter-spacing:.25em; text-transform:uppercase;
     color:var(--muted2); margin-top:8px; }
-  .hero h1{ margin:6px 0 0; max-width:15ch; }
-  .hero .sub{ margin-top:30px; max-width:50ch; }
+  .hero h1{ margin:6px 0 0; max-width:none; }
+  .hero .sub{ margin-top:32px; max-width:62ch; }
   .hero .actions{ margin-top:42px; display:flex; gap:16px; flex-wrap:wrap; }
 
   /* generic section spacing */
@@ -97,13 +97,23 @@
   .sec-head h2{ margin-top:22px; }
   .sec-head .lead{ margin-top:26px; }
 
+  /* problem section — distinct backdrop so it separates from the hero */
+  #problem{
+    background:
+      radial-gradient(85% 55% at 50% -8%, rgba(232,92,80,.10), transparent 62%),
+      linear-gradient(180deg, #100f0d 0%, #0a0908 55%, var(--bg) 100%);
+    border-top:1px solid rgba(250,250,249,.08);
+  }
+
   /* problem list */
   .plist{ margin-top:64px; border-top:1px solid var(--line); }
   .prow{ display:grid; grid-template-columns:80px 1fr; gap:24px; align-items:start;
-    padding:30px 0; border-bottom:1px solid var(--line); }
-  .prow .pn{ color:var(--coral); font-size:14px; letter-spacing:.1em; padding-top:9px; }
-  .prow .pt{ font-size:clamp(22px,2.4vw,32px); font-weight:300; letter-spacing:-.02em; line-height:1.15; }
+    padding:28px 0; border-bottom:1px solid var(--line); }
+  .prow .pn{ color:var(--coral); font-size:14px; letter-spacing:.1em; padding-top:7px; }
+  .prow .pt{ font-size:clamp(20px,1.7vw,25px); font-weight:300; letter-spacing:-.02em; line-height:1.25; }
   .closer{ margin-top:54px; font-size:clamp(26px,3.2vw,44px); font-weight:300; letter-spacing:-.03em; }
+  .closer.nowrap{ font-size:clamp(24px,3vw,40px); }
+  @media(min-width:860px){ .closer.nowrap{ white-space:nowrap; } }
 
   /* two-col */
   .cols2{ display:grid; grid-template-columns:1fr 1fr; gap:70px; align-items:center; }
@@ -118,12 +128,11 @@
   .light .compare{ background:#fff; }
   .compare .ctop{ display:flex; justify-content:space-between; font-size:11px; letter-spacing:.2em;
     text-transform:uppercase; color:var(--light-muted); }
-  .compare .vis{ display:flex; align-items:center; gap:32px; margin:30px 0 26px; }
-  .dotgrid{ display:grid; grid-template-columns:repeat(6,1fr); gap:12px; flex:1.4; }
-  .dotgrid i{ width:13px; height:13px; border-radius:50%; background:#cfcabd; }
-  .arrow{ color:var(--coral); font-size:26px; }
-  .poddots{ flex:1; display:grid; grid-template-columns:repeat(2,auto); gap:14px; justify-content:start; }
-  .poddots i{ width:17px; height:17px; border-radius:50%; background:var(--coral); }
+  .compare .vis{ display:flex; align-items:center; gap:18px; margin:30px 0 26px; }
+  .netgraph{ width:100%; height:auto; }
+  .netgraph.trad{ flex:1.6; max-height:188px; }
+  .netgraph.pod{ flex:1; max-height:188px; }
+  .arrow{ color:var(--coral); font-size:26px; flex:none; }
   .compare .cbot{ display:flex; justify-content:space-between; font-size:14px; color:var(--light-muted); }
   .compare .cbot b{ color:var(--light-ink); font-weight:600; }
   .compare .cbot .coral{ color:var(--coral); }
@@ -145,6 +154,32 @@
   .feat h3{ font-size:clamp(24px,2.4vw,32px); font-weight:300; letter-spacing:-.02em; margin:18px 0 14px; }
   .feat p{ color:var(--muted); font-size:16px; line-height:1.55; }
 
+  /* single-line closer variant */
+  .closer.tight-line{ font-size:clamp(20px,2.3vw,30px); }
+  @media(min-width:900px){ .closer.tight-line{ white-space:nowrap; } }
+
+  /* sprint cadence graphic (why it's different) */
+  .cadence{ margin:62px 0 6px; border:1px solid var(--line); border-radius:16px;
+    padding:34px 44px 30px; background:var(--bg2); }
+  .cad-top{ display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;
+    font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted2); margin-bottom:30px; }
+  .cad-top .lhs{ color:var(--coral); }
+  .cad-rail{ position:relative; height:76px; }
+  .cad-base{ position:absolute; left:0; right:0; top:18px; height:1px; background:var(--line); }
+  .cad-runner{ position:absolute; top:18px; left:0; width:11px; height:11px; border-radius:50%;
+    background:var(--coral); transform:translate(-50%,-50%);
+    box-shadow:0 0 0 6px rgba(232,92,80,.16); animation:cadrun 6.5s linear infinite; }
+  .cad-stop{ position:absolute; top:0; transform:translateX(-50%); text-align:center; width:96px; }
+  .cad-stop i{ display:block; width:13px; height:13px; border-radius:50%; border:1.5px solid var(--coral);
+    background:var(--bg2); margin:11.5px auto 0; box-sizing:border-box; animation:cadpulse 6.5s ease-in-out infinite; }
+  .cad-stop b{ display:block; margin-top:15px; font-size:13px; font-weight:500; letter-spacing:-.01em; color:var(--text); }
+  .cad-stop span{ display:block; font-size:10px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted2); margin-top:3px; }
+  .cad-stop.ship i{ background:var(--coral); }
+  .cad-stop.ship b{ color:var(--coral); }
+  @keyframes cadrun{ 0%{ left:0; opacity:0 } 4%{ opacity:1 } 96%{ opacity:1 } 100%{ left:100%; opacity:0 } }
+  @keyframes cadpulse{ 0%,100%{ transform:scale(1) } 50%{ transform:scale(1.35); border-color:#f08178 } }
+  @media(prefers-reduced-motion:reduce){ .cad-runner,.cad-stop i{ animation:none } }
+
   /* workflow */
   .flow{ margin-top:70px; display:grid; grid-template-columns:repeat(7,1fr); gap:0; }
   @media(max-width:900px){ .flow{ grid-template-columns:repeat(2,1fr); gap:24px; } }
@@ -152,6 +187,28 @@
   .fstep .fsn{ font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--light-muted); }
   .fstep .fst{ margin-top:14px; font-size:17px; font-weight:500; letter-spacing:-.01em; line-height:1.25; }
   .fstep.ship .fst{ color:var(--coral); }
+
+  /* human-in-the-loop pipeline (how the work gets done) */
+  .pipe{ margin-top:64px; border:1px solid var(--light-line); border-radius:18px; background:#fff; padding:36px 48px 40px; }
+  .pipe-top{ display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;
+    font-size:11px; letter-spacing:.18em; text-transform:uppercase; }
+  .pipe-top .ai{ color:var(--light-muted); }
+  .pipe-top .hu{ color:var(--coral); }
+  .dgraph-wrap{ margin-top:24px; }
+  .dgraph{ width:100%; height:auto; display:block; }
+  .dgraph .flow{ stroke-dasharray:4 12; animation:dgflow 1s linear infinite; }
+  @keyframes dgflow{ to{ stroke-dashoffset:-16 } }
+  .dgraph .hub{ transform-box:fill-box; transform-origin:center; animation:dgpulse 3.2s ease-in-out infinite; }
+  @keyframes dgpulse{ 0%,100%{ transform:scale(1) } 50%{ transform:scale(1.16) } }
+  .dgraph .lb{ font-family:'Hanken Grotesk',system-ui,sans-serif; font-size:13.5px; }
+  .dgraph .lb.hub{ fill:var(--light-ink); font-weight:600; }
+  .dgraph .lb.ai{ fill:#8d8d8b; font-weight:500; }
+  .dglegend{ display:flex; gap:28px; margin-top:18px; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--light-muted); }
+  .dglegend .lg{ display:flex; align-items:center; gap:9px; }
+  .dglegend .lg::before{ content:""; width:11px; height:11px; border-radius:50%; }
+  .dglegend .lg.hub::before{ background:var(--coral); }
+  .dglegend .lg.ai::before{ background:#cdc6b6; }
+  @media(prefers-reduced-motion:reduce){ .dgraph .flow,.dgraph .hub{ animation:none } }
 
   /* pricing tiers */
   .tiers{ display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:64px; }
@@ -187,6 +244,24 @@
   .clientcard .cn{ font-size:30px; font-weight:400; letter-spacing:-.02em; margin-top:12px; }
   .clientcard .cmeta{ color:var(--light-muted); margin-top:6px; font-size:14px; }
   .clientcard .tags{ margin-top:22px; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:#9a978f; }
+
+  /* proof timeline contrast */
+  .timeline{ margin-top:56px; border:1px solid var(--light-line); border-radius:18px; background:#fff; padding:40px 46px 32px; }
+  .tl-row{ margin-bottom:26px; }
+  .tl-lab{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin-bottom:11px; }
+  .tl-lab .who{ font-size:13px; font-weight:600; color:var(--light-ink); letter-spacing:.01em; }
+  .tl-lab .who.r{ color:var(--coral); }
+  .tl-lab .dur{ font-size:12px; color:var(--light-muted); letter-spacing:.04em; }
+  .tl-track{ position:relative; height:38px; background:#f0ede6; border-radius:9px; overflow:hidden; }
+  .tl-bar{ position:absolute; left:0; top:0; height:100%; display:flex; align-items:center; gap:9px;
+    padding:0 16px; border-radius:9px; font-size:12px; white-space:nowrap; }
+  .tl-bar.stuck{ width:100%; color:#7a746a;
+    background:repeating-linear-gradient(45deg,#ded7c8 0,#ded7c8 9px,#e9e3d6 9px,#e9e3d6 18px); }
+  .tl-bar.ship{ width:25%; color:#fff; font-weight:600; background:var(--coral); }
+  .tl-axis{ display:flex; justify-content:space-between; margin-top:15px; font-size:11px; letter-spacing:.1em; color:var(--light-muted); }
+  .reveal.in .tl-bar.ship{ animation:tlgrow 1.25s cubic-bezier(.2,.7,.2,1); }
+  @keyframes tlgrow{ from{ width:0 } to{ width:25% } }
+  @media(prefers-reduced-motion:reduce){ .reveal.in .tl-bar.ship{ animation:none } }
   .ba3{ display:grid; grid-template-columns:repeat(3,1fr); gap:40px; margin-top:56px; }
   @media(max-width:820px){ .ba3{ grid-template-columns:1fr; gap:28px; } }
   .ba3 .bl{ font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--light-muted); padding-bottom:14px; border-bottom:1px solid var(--light-line); }
@@ -222,9 +297,21 @@
   .cta-panel .inner{ position:relative; z-index:2; }
   .cta-panel h2{ max-width:16ch; }
   .cta-panel .lead{ margin-top:26px; max-width:54ch; }
-  .contact{ margin-top:44px; display:flex; gap:48px; align-items:center; flex-wrap:wrap; }
+  .contact{ margin-top:44px; display:flex; gap:56px; align-items:flex-start; flex-wrap:wrap; }
   .contact .who{ font-size:19px; } .contact .who span{ color:var(--muted2); }
+  .contact .person .det{ margin-top:6px; }
   .contact .det a{ color:var(--coral); text-decoration:none; font-size:16px; }
+
+  /* mid-page CTA bands */
+  .ctaband{ padding:54px 0; border-top:1px solid var(--line2); border-bottom:1px solid var(--line2);
+    background:radial-gradient(120% 170% at 50% 50%, rgba(232,92,80,.11), transparent 70%), var(--bg2); color:var(--text); }
+  .ctaband-in{ display:flex; align-items:center; justify-content:space-between; gap:24px 44px; flex-wrap:wrap; }
+  .cb-h{ font-size:clamp(24px,2.7vw,34px); font-weight:300; letter-spacing:-.025em; line-height:1.05; }
+  .cb-s{ color:var(--muted); margin-top:9px; font-size:16px; }
+  .ctaband .btn{ flex:none; }
+
+  /* pricing tier CTA buttons */
+  .tier-cta{ margin-top:28px; display:flex; width:100%; justify-content:center; }
 
   /* footer */
   footer{ border-top:1px solid var(--line2); padding:60px 0 50px; }
@@ -295,7 +382,7 @@
       <div class="prow"><div class="pn">03</div><div class="pt">Modernization keeps slipping because the team is buried keeping the lights on.</div></div>
       <div class="prow"><div class="pn">04</div><div class="pt">Hiring is slow, expensive, and won&rsquo;t move the backlog for months.</div></div>
     </div>
-    <p class="closer reveal">It&rsquo;s not a talent problem. <span class="serif-it coral">It&rsquo;s a capacity problem.</span></p>
+    <p class="closer nowrap reveal">It&rsquo;s not a talent problem. <span class="serif-it coral">It&rsquo;s a capacity problem.</span></p>
   </div>
 </section>
 
@@ -306,7 +393,7 @@
       <div class="eyebrow"><span class="tick"></span> Why a pod</div>
       <h2 class="h-lg" style="margin-top:22px;">A small team can now outship a big one.</h2>
       <ul class="bullets">
-        <li>AI-assisted delivery changed the math &mdash; fewer people, more output, once the process is built for it.</li>
+        <li>Our AI-assisted delivery pods change the math &mdash; fewer people, more output, one defined delivery process.</li>
         <li>We don&rsquo;t add headcount. We drop in a small, senior pod that owns a defined piece of the roadmap and ships it.</li>
         <li>Throughput without the hiring cycle, the onboarding, or the management overhead.</li>
       </ul>
@@ -315,14 +402,77 @@
       <div class="compare">
         <div class="ctop"><span>Traditional team</span><span class="coral">White Rabbit pod</span></div>
         <div class="vis">
-          <div class="dotgrid">
-            <i></i><i></i><i></i><i></i><i></i><i></i>
-            <i></i><i></i><i></i><i></i><i></i><i></i>
-            <i></i><i></i><i></i><i></i><i></i><i></i>
-            <i></i><i></i><i></i><i></i><i></i><i></i>
-          </div>
+          <svg class="netgraph trad" viewBox="0 0 220 196" xmlns="http://www.w3.org/2000/svg" fill="none">
+      <defs><marker id="ah-grey" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="#b9b2a2"/></marker></defs>
+      <g>
+        <path d="M110.0 16.0 L139.0 28.0 L168.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 16.0 L151.0 57.0 L192.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 16.0 L110.0 98.0 L110.0 180.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 16.0 L123.5 43.5 L136.9 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 40.0 L180.0 69.0 L192.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 40.0 L168.0 98.0 L168.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 40.0 L110.0 98.0 L52.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 40.0 L152.4 55.5 L136.9 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M192.0 98.0 L180.0 127.0 L168.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M192.0 98.0 L151.0 139.0 L110.0 180.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M192.0 98.0 L110.0 98.0 L28.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M192.0 98.0 L164.4 84.5 L136.9 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 156.0 L139.0 168.0 L110.0 180.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 156.0 L110.0 156.0 L52.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 156.0 L110.0 98.0 L52.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 156.0 L152.4 140.4 L136.9 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 180.0 L81.0 168.0 L52.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 180.0 L69.0 139.0 L28.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 180.0 L123.5 152.4 L136.9 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 156.0 L40.0 127.0 L28.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 156.0 L52.0 98.0 L52.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 156.0 L67.5 140.4 L83.1 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M28.0 98.0 L69.0 57.0 L110.0 16.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M28.0 98.0 L40.0 69.0 L52.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M28.0 98.0 L55.5 111.5 L83.1 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 40.0 L81.0 28.0 L110.0 16.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 40.0 L110.0 40.0 L168.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 40.0 L67.5 55.5 L83.1 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 71.1 L136.9 98.0 L136.9 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 71.1 L110.0 98.0 L83.1 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 71.1 L110.0 71.1 L83.1 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 124.9 L110.0 124.9 L83.1 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 124.9 L110.0 98.0 L83.1 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M83.1 124.9 L83.1 98.0 L83.1 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+      </g>
+      <g>
+        <circle cx="110.0" cy="16.0" r="5" fill="#cbc4b4"/>
+        <circle cx="168.0" cy="40.0" r="5" fill="#cbc4b4"/>
+        <circle cx="192.0" cy="98.0" r="5" fill="#cbc4b4"/>
+        <circle cx="168.0" cy="156.0" r="5" fill="#cbc4b4"/>
+        <circle cx="110.0" cy="180.0" r="5" fill="#cbc4b4"/>
+        <circle cx="52.0" cy="156.0" r="5" fill="#cbc4b4"/>
+        <circle cx="28.0" cy="98.0" r="5" fill="#cbc4b4"/>
+        <circle cx="52.0" cy="40.0" r="5" fill="#cbc4b4"/>
+        <circle cx="136.9" cy="71.1" r="5" fill="#cbc4b4"/>
+        <circle cx="136.9" cy="124.9" r="5" fill="#cbc4b4"/>
+        <circle cx="83.1" cy="124.9" r="5" fill="#cbc4b4"/>
+        <circle cx="83.1" cy="71.1" r="5" fill="#cbc4b4"/>
+      </g>
+    </svg>
           <div class="arrow">&rarr;</div>
-          <div class="poddots"><i></i><i></i><i></i><i></i></div>
+          <svg class="netgraph pod" viewBox="0 0 150 192" xmlns="http://www.w3.org/2000/svg" fill="none">
+      <defs><marker id="ah-red" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="#e85c50"/></marker></defs>
+      <g>
+        <path d="M75 50 L97.5 77.0 L120 104" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M75 50 L75.0 104.0 L75 158" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M75 50 L52.5 77.0 L30 104" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M120 104 L97.5 131.0 L75 158" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M120 104 L75.0 104.0 L30 104" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M75 158 L52.5 131.0 L30 104" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+      </g>
+      <g>
+        <circle cx="75" cy="50" r="8.5" fill="#e85c50"/>
+        <circle cx="120" cy="104" r="8.5" fill="#e85c50"/>
+        <circle cx="75" cy="158" r="8.5" fill="#e85c50"/>
+        <circle cx="30" cy="104" r="8.5" fill="#e85c50"/>
+      </g>
+    </svg>
         </div>
         <div class="cbot"><span>large team<br>slow throughput</span><span style="text-align:right;"><b>4&ndash;6 people</b><br><span class="coral">ships faster</span></span></div>
       </div>
@@ -372,6 +522,17 @@
   </div>
 </section>
 
+<!-- CTA BAND 1 -->
+<section class="ctaband reveal">
+  <div class="wrap ctaband-in">
+    <div>
+      <div class="cb-h">More roadmap than your team can clear?</div>
+      <div class="cb-s">Drop in a senior pod that owns a slice and ships it.</div>
+    </div>
+    <a class="btn solid" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Book a scoping call</a>
+  </div>
+</section>
+
 <!-- WHY IT'S DIFFERENT -->
 <section class="sec tight">
   <div class="wrap">
@@ -379,12 +540,24 @@
       <div class="eyebrow"><span class="tick"></span> Why it&rsquo;s different</div>
       <h2 class="h-lg">Not staff augmentation. Owned delivery.</h2>
     </div>
+    <div class="cadence reveal">
+      <div class="cad-top"><span class="lhs">Defined cadence</span><span>A demo every sprint &middot; one accountable owner</span></div>
+      <div class="cad-rail">
+        <div class="cad-base"></div>
+        <div class="cad-runner"></div>
+        <div class="cad-stop" style="left:6%"><i style="animation-delay:.25s"></i><b>Sprint 1</b><span>Demo</span></div>
+        <div class="cad-stop" style="left:28%"><i style="animation-delay:1.65s"></i><b>Sprint 2</b><span>Demo</span></div>
+        <div class="cad-stop" style="left:50%"><i style="animation-delay:3.05s"></i><b>Sprint 3</b><span>Demo</span></div>
+        <div class="cad-stop" style="left:72%"><i style="animation-delay:4.45s"></i><b>Sprint 4</b><span>Demo</span></div>
+        <div class="cad-stop ship" style="left:94%"><i style="animation-delay:5.85s"></i><b>Ship</b><span>Release</span></div>
+      </div>
+    </div>
     <div class="feat3 reveal">
       <div class="feat"><div class="fn">01 / Accountability</div><h3>One clear owner</h3><p>An Outcome Owner&trade; is responsible for what gets delivered &mdash; not just another contractor for you to manage.</p></div>
       <div class="feat"><div class="fn">02 / Discipline</div><h3>No black boxes</h3><p>A defined cadence, a clear definition of done, and a demo every sprint. You always know where things stand.</p></div>
       <div class="feat"><div class="fn">03 / Method</div><h3>Built for speed</h3><p>An AI-native workflow that lets a small team move at the pace of a large one.</p></div>
     </div>
-    <p class="closer reveal" style="margin-top:64px;">The difference isn&rsquo;t the tools we use. <span class="serif-it coral">It&rsquo;s the process we run them with.</span></p>
+    <p class="closer tight-line reveal" style="margin-top:60px;">The difference isn&rsquo;t the tools we use. <span class="serif-it coral">It&rsquo;s the process we run them with.</span></p>
   </div>
 </section>
 
@@ -393,16 +566,58 @@
   <div class="wrap">
     <div class="sec-head reveal">
       <div class="eyebrow"><span class="tick"></span> How the work gets done</div>
-      <h2 class="h-lg">AI-native, senior-led.</h2>
+      <h2 class="h-lg">AI-native, Outcome Owner&trade; led.</h2>
     </div>
-    <div class="flow reveal">
-      <div class="fstep"><div class="fsn">Step 01</div><div class="fst">Spec &amp; architecture</div></div>
-      <div class="fstep"><div class="fsn">Step 02</div><div class="fst">Task breakdown</div></div>
-      <div class="fstep"><div class="fsn">Step 03</div><div class="fst">AI pair programming</div></div>
-      <div class="fstep"><div class="fsn">Step 04</div><div class="fst">Test generation</div></div>
-      <div class="fstep"><div class="fsn">Step 05</div><div class="fst">Pre-PR review</div></div>
-      <div class="fstep"><div class="fsn">Step 06</div><div class="fst">CI pipeline</div></div>
-      <div class="fstep ship"><div class="fsn">Ship</div><div class="fst">Release</div></div>
+    <div class="pipe reveal">
+      <div class="pipe-top">
+        <span class="ai">AI explores in parallel</span>
+        <span class="hu">Outcome Owner&trade; makes the calls &rarr; shipped</span>
+      </div>
+      <div class="dgraph-wrap">
+        <svg class="dgraph" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
+      <g>
+        <path d="M80,115 C190,115 230,42 330,42" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M80,115 C190,115 230,115 330,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M80,115 C190,115 230,188 330,188" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M330,42 C440,42 470,115 580,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M330,115 C440,115 470,115 580,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M330,188 C440,188 470,115 580,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M580,115 L700,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M700,115 L830,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+      </g>
+      <g>
+        <path class="flow" d="M80,115 C190,115 230,42 330,42" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M80,115 C190,115 230,115 330,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M80,115 C190,115 230,188 330,188" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M330,42 C440,42 470,115 580,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M330,115 C440,115 470,115 580,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M330,188 C440,188 470,115 580,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M580,115 L700,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M700,115 L830,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+      </g>
+      <g>
+        <circle cx="330" cy="42" r="7" fill="#cdc6b6"/>
+        <circle cx="330" cy="115" r="7" fill="#cdc6b6"/>
+        <circle cx="330" cy="188" r="7" fill="#cdc6b6"/>
+        <circle cx="700" cy="115" r="6" fill="#cdc6b6"/>
+      </g>
+      <g>
+        <circle class="hub" cx="80" cy="115" r="9" fill="#e85c50"/>
+        <circle class="hub" cx="580" cy="115" r="9" fill="#e85c50"/>
+        <circle class="hub" cx="830" cy="115" r="10" fill="#e85c50"/>
+      </g>
+      <g>
+        <text x="80" y="142" text-anchor="middle" class="lb hub">Spec &amp; architecture</text>
+        <text x="330" y="26" text-anchor="middle" class="lb ai">Task breakdown</text>
+        <text x="330" y="142" text-anchor="middle" class="lb ai">AI pair programming</text>
+        <text x="330" y="212" text-anchor="middle" class="lb ai">Test generation</text>
+        <text x="580" y="142" text-anchor="middle" class="lb hub">Pre-PR review</text>
+        <text x="700" y="142" text-anchor="middle" class="lb ai">CI</text>
+        <text x="830" y="142" text-anchor="middle" class="lb hub">Shipped</text>
+      </g>
+    </svg>
+        <div class="dglegend"><span class="lg hub">Outcome Owner&trade; decision</span><span class="lg ai">AI branch</span></div>
+      </div>
     </div>
     <p class="lead reveal" style="margin-top:60px;max-width:80ch;">We use the best tools available &mdash; Claude Code, OpenAI agents, Cursor, Copilot. We don&rsquo;t reinvent them, and we don&rsquo;t build or train models. The value is in our process and delivery rigor, with human seniority on the decisions that matter.</p>
   </div>
@@ -420,21 +635,23 @@
       <div class="tier hi">
         <div class="tflag">Start here</div>
         <div class="tname">Mini-pod pilot</div>
-        <div class="tdesc">A senior AI-native mini-pod owns one defined slice of your roadmap &mdash; the lowest-friction way to see the model work on your actual backlog.</div>
-        <div class="price">$28&ndash;35k<small> / mo</small></div>
-        <div class="tmeta">300+ hrs / mo &middot; 90-day initial term</div>
+        <div class="tdesc">A senior AI-native mini-pod of 2&ndash;3 people owns one defined slice of your roadmap &mdash; the lowest-friction way to see the model work on your actual backlog.</div>
+        <div class="price">$28k<small> / mo, then $34k / mo</small></div>
+        <div class="tmeta">90-day initial term, then ongoing retainer</div>
+        <a class="btn solid tier-cta" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Book a scoping call</a>
       </div>
       <div class="tier">
         <div class="tname">Full Delivery Pod</div>
-        <div class="tdesc">A 4&ndash;6 person pod owning a larger outcome end to end &mdash; the model prospects scale into once the pilot proves out.</div>
+        <div class="tdesc">A 4&ndash;6 person pod owning a larger outcome end to end &mdash; the model companies scale into once the pilot proves out.</div>
         <div class="price">$150k<small> pilot, then $62k / mo</small></div>
         <div class="tmeta">90-day pilot, then ongoing retainer</div>
+        <a class="btn tier-cta" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Talk to us</a>
       </div>
     </div>
     <p class="small pricenote reveal">Pricing is indicative and confirmed against scope before we quote.</p>
 
     <div class="costs reveal">
-      <div class="eyebrow" style="margin-bottom:10px;"><span class="tick"></span> What clients would otherwise spend</div>
+      <div class="eyebrow" style="margin-bottom:10px;"><span class="tick"></span> What companies would otherwise spend</div>
       <p class="small" style="margin-bottom:26px;">Estimated monthly cost. Staff-aug options exclude management; the pod is fully managed.</p>
       <div class="bar"><div class="blbl">Nearshore staff aug</div><div class="btrack"><div class="bfill" style="width:23%"></div></div><div class="bval">$57k</div></div>
       <div class="bar hi"><div class="blbl">White Rabbit Pod</div><div class="btrack"><div class="bfill" style="width:25%"></div></div><div class="bval">$62k</div></div>
@@ -442,7 +659,7 @@
       <div class="bar"><div class="blbl">Boutique US studio</div><div class="btrack"><div class="bfill" style="width:45%"></div></div><div class="bval">$112k</div></div>
       <div class="bar"><div class="blbl">Toptal Managed Delivery</div><div class="btrack"><div class="bfill" style="width:56%"></div></div><div class="bval">$140k</div></div>
       <div class="bar"><div class="blbl">Thoughtworks / enterprise</div><div class="btrack"><div class="bfill" style="width:100%"></div></div><div class="bval">$250k</div></div>
-      <p class="lead" style="margin-top:30px;">Saves <span class="coral">$25&ndash;45k / month</span> against a fully loaded in-house team, and lands <span class="coral">40&ndash;60% below</span> Toptal Managed Delivery.</p>
+      <p class="lead" style="margin-top:30px;">Saves <span class="coral">$25&ndash;45k / month</span> against a fully loaded in-house team of equivalent size, and lands <span class="coral">40&ndash;60% below</span> Toptal Managed Delivery.</p>
     </div>
   </div>
 </section>
@@ -453,7 +670,7 @@
     <div class="proof-grid">
       <div class="reveal">
         <div class="eyebrow"><span class="tick"></span> Proof</div>
-        <h2 class="h-lg" style="margin-top:22px;">Two years stuck.<br>Six months to ship.</h2>
+        <h2 class="h-lg" style="margin-top:22px;">Two years stuck.<br><span class="serif-it coral">Six months to ship.</span></h2>
         <p class="lead" style="margin-top:24px;max-width:46ch;">When the backlog item your team keeps deprioritizing is the one that matters, a pod takes it off the list for good.</p>
       </div>
       <div class="reveal">
@@ -465,11 +682,33 @@
         </div>
       </div>
     </div>
+    <div class="timeline reveal">
+      <div class="tl-row">
+        <div class="tl-lab"><span class="who">Before &mdash; their internal team</span><span class="dur">~2 years &middot; unfinished</span></div>
+        <div class="tl-track"><div class="tl-bar stuck">Carried for two years &mdash; never shipped</div></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-lab"><span class="who r">With a White Rabbit pod</span><span class="dur">~6 months &middot; shipped</span></div>
+        <div class="tl-track"><div class="tl-bar ship">Shipped &#10003;</div></div>
+      </div>
+      <div class="tl-axis"><span>Month 0</span><span>6</span><span>12</span><span>18</span><span>24</span></div>
+    </div>
     <div class="ba3 reveal">
       <div><div class="bl">Before</div><p>Work their internal team had carried, and couldn&rsquo;t finish, for two years.</p></div>
       <div><div class="bl">What we did</div><p>One pod took ownership of the scope and ran the model end to end.</p></div>
       <div><div class="bl aft">After</div><p>Shipped in roughly six months, with a clean handover and documentation.</p></div>
     </div>
+  </div>
+</section>
+
+<!-- CTA BAND 2 -->
+<section class="ctaband reveal">
+  <div class="wrap ctaband-in">
+    <div>
+      <div class="cb-h">Clear something you&rsquo;ve been stuck on.</div>
+      <div class="cb-s">One defined scope, visible momentum every week.</div>
+    </div>
+    <a class="btn solid" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Book a scoping call</a>
   </div>
 </section>
 
@@ -498,11 +737,11 @@
       <h2 class="h-lg">What teams ask us first.</h2>
     </div>
     <div class="faq reveal">
-      <details open><summary>We hire our own engineers.<span class="pm"></span></summary><div class="ans">And you should &mdash; but hiring won&rsquo;t clear this quarter&rsquo;s backlog. A pod adds throughput now, flexes up or down, and doesn&rsquo;t add permanent headcount.</div></details>
-      <details><summary>We&rsquo;ve been burned by offshore or contractors.<span class="pm"></span></summary><div class="ans">This isn&rsquo;t staff aug. One Outcome Owner&trade; is accountable for shipped outcomes, with a demo every sprint and a clear definition of done &mdash; you manage an outcome, not people.</div></details>
-      <details><summary>We don&rsquo;t trust AI-generated code.<span class="pm"></span></summary><div class="ans">It&rsquo;s AI-assisted and senior-led. Humans own the decisions that matter, with QA automation, pre-PR review and CI in the pipeline. We don&rsquo;t train models &mdash; we run rigorous delivery.</div></details>
-      <details><summary>It sounds expensive.<span class="pm"></span></summary><div class="ans">It&rsquo;s typically cheaper than a fully loaded in-house team and 40&ndash;60% below Toptal &mdash; and the pilot is a bounded, defined spend with a concrete deliverable.</div></details>
-      <details><summary>Now&rsquo;s not the time.<span class="pm"></span></summary><div class="ans">That&rsquo;s exactly what the 90-day pilot is for &mdash; one slice, low commitment. Worst case you&rsquo;ve seen the model; usually you&rsquo;ve also cleared something real.</div></details>
+      <details open><summary>Why not just hire our own engineers?<span class="pm"></span></summary><div class="ans">You should &mdash; but hiring won&rsquo;t clear this quarter&rsquo;s backlog. A pod adds throughput now, flexes up or down, and doesn&rsquo;t add permanent headcount.</div></details>
+      <details><summary>How is this different from offshore or contractors?<span class="pm"></span></summary><div class="ans">This isn&rsquo;t staff aug. One Outcome Owner&trade; is accountable for shipped outcomes, with a demo every sprint and a clear definition of done &mdash; you manage an outcome, not people.</div></details>
+      <details><summary>Can we trust AI-generated code?<span class="pm"></span></summary><div class="ans">Yes &mdash; it&rsquo;s AI-assisted and senior-led. Humans own the decisions that matter, with QA automation, pre-PR review and CI in the pipeline. We don&rsquo;t train models; we run rigorous delivery.</div></details>
+      <details><summary>Isn&rsquo;t this expensive?<span class="pm"></span></summary><div class="ans">It&rsquo;s typically cheaper than a fully loaded in-house team and 40&ndash;60% below Toptal &mdash; and the pilot is a bounded, defined spend with a concrete deliverable.</div></details>
+      <details><summary>Why start now?<span class="pm"></span></summary><div class="ans">That&rsquo;s exactly what the 90-day pilot is for &mdash; one slice, low commitment. Worst case you&rsquo;ve seen the model; usually you&rsquo;ve also cleared something real.</div></details>
     </div>
   </div>
 </section>
@@ -517,11 +756,17 @@
         <h2 class="display" style="margin-top:22px;font-size:clamp(40px,5.4vw,80px);">Let&rsquo;s find one thing <span class="serif-it coral">worth shipping.</span></h2>
         <p class="lead">A 30-minute scoping call. We&rsquo;ll pick a candidate slice of your roadmap and tell you straight whether a pod is the right call.</p>
         <div class="actions" style="margin-top:40px;">
-          <a class="btn solid" href="mailto:adam@whiterabbit.group">Schedule a call</a>
+          <a class="btn solid" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Schedule a call</a>
         </div>
         <div class="contact">
-          <div class="who">Adam Weil <span>&mdash; Partner</span></div>
-          <div class="det"><a href="mailto:adam@whiterabbit.group">adam@whiterabbit.group</a> &nbsp;&middot;&nbsp; <a href="https://whiterabbit.group">whiterabbit.group</a></div>
+          <div class="person">
+            <div class="who">Rayna Weinreb <span>&mdash; Account Manager</span></div>
+            <div class="det"><a href="mailto:rayna.weinreb@whiterabbit.group">rayna.weinreb@whiterabbit.group</a></div>
+          </div>
+          <div class="person">
+            <div class="who">Marschal Bellinger, PhD <span>&mdash; Director of Services</span></div>
+            <div class="det"><a href="mailto:marschal.bellinger@whiterabbit.group">marschal.bellinger@whiterabbit.group</a></div>
+          </div>
         </div>
       </div>
     </div>
