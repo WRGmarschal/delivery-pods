@@ -309,6 +309,18 @@
   .contact .who{ font-size:19px; } .contact .who span{ color:var(--muted2); }
   .contact .person .det{ margin-top:6px; }
   .contact .det a{ color:var(--coral); text-decoration:none; font-size:16px; }
+  /* Let's Talk portrait (Rayna) */
+  /* mobile-first: portrait sits just below the Schedule-a-call button */
+  .cta-portrait{ margin:36px 0 4px; text-align:left; }
+  .cta-portrait img{ width:150px; height:150px; border-radius:50%; object-fit:cover; object-position:center top;
+    border:1px solid rgba(250,250,249,.18); background:#211d1a; display:block; }
+  .cta-portrait figcaption{ margin-top:16px; font-size:15px; font-weight:500; color:var(--text); }
+  .cta-portrait figcaption span{ display:block; font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted2); margin-top:5px; }
+  @media(min-width:861px){
+    .cta-panel .inner{ padding-right:300px; }
+    .cta-portrait{ position:absolute; right:0; top:50%; transform:translateY(-50%); margin:0; text-align:center; }
+    .cta-portrait img{ width:210px; height:210px; }
+  }
 
   /* mid-page CTA bands */
   .ctaband{ padding:54px 0; border-top:1px solid var(--line2); border-bottom:1px solid var(--line2);
@@ -767,6 +779,10 @@
         <div class="actions" style="margin-top:40px;">
           <a class="btn solid" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Schedule a call</a>
         </div>
+        <figure class="cta-portrait">
+          <img src="https://drive.google.com/thumbnail?id=12fSMS1jdue7u0xWB6vEODcuLUnZijIqz&sz=w600" alt="Rayna Weinreb, Account Manager at White Rabbit Group">
+          <figcaption>Rayna Weinreb<span>Account Manager</span></figcaption>
+        </figure>
         <div class="contact">
           <div class="person">
             <div class="who">Rayna Weinreb <span>&mdash; Account Manager</span></div>
