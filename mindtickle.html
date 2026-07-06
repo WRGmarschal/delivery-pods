@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37FYHVQ9F8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-37FYHVQ9F8');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delivery Pods for Mindtickle | White Rabbit Group</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#080807;
+    --bg2:#0e0e0c;
+    --text:#fafaf9;
+    --muted:#a8a8a4;
+    --muted2:#8d8d8b;
+    --line:rgba(250,250,249,.13);
+    --line2:rgba(250,250,249,.07);
+    --coral:#e85c50;
+    --light:#f4f3f1;
+    --light-ink:#0a0a09;
+    --light-muted:#62615d;
+    --light-line:rgba(10,10,9,.12);
+    --maxw:1240px;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ scroll-behavior:smooth; }
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:'Hanken Grotesk',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight:400; line-height:1.5; -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 40px; }
+  section{ position:relative; }
+
+  h1,h2,h3{ font-weight:300; letter-spacing:-.035em; line-height:.98; }
+  .display{ font-size:clamp(46px,7.4vw,108px); }
+  .h-lg{ font-size:clamp(38px,5.2vw,72px); }
+  .h-md{ font-size:clamp(28px,3.4vw,46px); }
+  .serif-it{ font-family:'Instrument Serif',Georgia,serif; font-style:italic; font-weight:400; letter-spacing:-.01em; }
+  .coral{ color:var(--coral); }
+
+  .eyebrow{ font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:var(--muted2);
+    font-weight:500; display:flex; align-items:center; gap:14px; }
+  .eyebrow .tick{ width:26px; height:1px; background:var(--coral); display:inline-block; }
+
+  .lead{ font-size:clamp(17px,1.45vw,20px); color:var(--muted); line-height:1.55; font-weight:400; }
+  .small{ font-size:13px; color:var(--muted2); letter-spacing:.01em; }
+
+  /* buttons */
+  .btn{ display:inline-flex; align-items:center; gap:10px; cursor:pointer; text-decoration:none;
+    font-size:12.5px; letter-spacing:.2em; text-transform:uppercase; font-weight:500;
+    padding:17px 32px; border-radius:999px; border:1px solid var(--text); color:var(--text);
+    background:transparent; transition:.25s ease; }
+  .btn:hover{ background:var(--text); color:var(--bg); }
+  .btn.solid{ background:var(--text); color:var(--bg); border-color:var(--text); }
+  .btn.solid:hover{ background:var(--coral); border-color:var(--coral); color:#fff; }
+  .btn.dark{ border-color:var(--light-ink); color:var(--light-ink); }
+  .btn.dark:hover{ background:var(--light-ink); color:var(--light); }
+
+  /* nav */
+  header{ position:fixed; top:0; left:0; right:0; z-index:50; transition:.3s ease;
+    border-bottom:1px solid transparent; }
+  header.scrolled{ background:rgba(8,8,7,.82); backdrop-filter:blur(12px); border-bottom:1px solid var(--line2); }
+  .nav{ display:flex; align-items:center; justify-content:space-between; height:84px; }
+  .brand{ display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--text); }
+  .brand .name{ font-size:16px; font-weight:500; letter-spacing:-.01em; white-space:nowrap; }
+  .navlinks{ display:flex; gap:38px; list-style:none; }
+  .navlinks a{ color:var(--muted); text-decoration:none; font-size:12.5px; letter-spacing:.18em;
+    text-transform:uppercase; font-weight:500; transition:.2s; }
+  .navlinks a:hover{ color:var(--text); }
+  .nav-cta{ font-size:12.5px; letter-spacing:.18em; text-transform:uppercase; padding:13px 24px; }
+  @media(max-width:980px){ .navlinks{ display:none; } }
+
+  /* hero */
+  .hero{ min-height:100vh; display:flex; align-items:center; padding:140px 0 90px; overflow:hidden; }
+  #heroCanvas{ position:absolute; inset:0; width:100%; height:100%; opacity:.55; z-index:0; }
+  .hero .wrap{ position:relative; z-index:2; }
+  .hero-tag{ display:inline-block; font-size:11px; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--coral); border:1px solid rgba(232,92,80,.45);
+    border-radius:999px; padding:8px 16px; margin-bottom:30px; }
+  .hero-tag::before{ content:""; display:inline-block; width:6px; height:6px; border-radius:50%;
+    background:var(--coral); margin-right:9px; vertical-align:1.5px; }
+  .hero .lockup{ margin-bottom:30px; }
+  .hero .lockup .word{ font-size:clamp(30px,3.6vw,46px); font-weight:300; letter-spacing:-.02em; }
+  .hero .lockup .pw{ display:block; font-size:11px; letter-spacing:.25em; text-transform:uppercase;
+    color:var(--muted2); margin-top:8px; }
+  .hero h1{ margin:6px 0 0; max-width:none; }
+  .hero .sub{ margin-top:32px; max-width:62ch; }
+  .hero .actions{ margin-top:42px; display:flex; gap:16px; flex-wrap:wrap; }
+
+  /* generic section spacing */
+  .sec{ padding:130px 0; }
+  .sec.tight{ padding:96px 0; }
+  .light{ background:var(--light); color:var(--light-ink); }
+  .light .lead{ color:var(--light-muted); }
+  .light .eyebrow{ color:var(--light-muted); }
+  .light .small{ color:var(--light-muted); }
+
+  .sec-head{ max-width:62ch; }
+  #problem .sec-head{ max-width:none; }  /* let the two-line Problem title use its natural width */
+  .sec-head h2{ margin-top:22px; }
+  .sec-head .lead{ margin-top:26px; }
+
+  /* problem section — distinct backdrop so it separates from the hero */
+  #problem{
+    background:
+      radial-gradient(85% 55% at 50% -8%, rgba(232,92,80,.10), transparent 62%),
+      linear-gradient(180deg, #100f0d 0%, #0a0908 55%, var(--bg) 100%);
+    border-top:1px solid rgba(250,250,249,.08);
+  }
+
+  /* problem list */
+  .plist{ margin-top:64px; border-top:1px solid var(--line); }
+  .prow{ display:grid; grid-template-columns:80px 1fr; gap:24px; align-items:start;
+    padding:28px 0; border-bottom:1px solid var(--line); }
+  .prow .pn{ color:var(--coral); font-size:14px; letter-spacing:.1em; padding-top:7px; }
+  .prow .pt{ font-size:clamp(20px,1.7vw,25px); font-weight:300; letter-spacing:-.02em; line-height:1.25; }
+  .closer{ margin-top:54px; font-size:clamp(26px,3.2vw,44px); font-weight:300; letter-spacing:-.03em; }
+  .closer.nowrap{ font-size:clamp(24px,3vw,40px); }
+  @media(min-width:860px){ .closer.nowrap{ white-space:nowrap; } }
+
+  /* two-col */
+  .cols2{ display:grid; grid-template-columns:1fr 1fr; gap:70px; align-items:center; }
+  @media(max-width:900px){ .cols2{ grid-template-columns:1fr; gap:46px; } }
+  .bullets{ list-style:none; margin-top:34px; }
+  .bullets li{ display:flex; gap:16px; padding:16px 0; border-bottom:1px solid var(--light-line); font-size:18px; }
+  .light .bullets li{ border-color:var(--light-line); color:#2a2a27; }
+  .bullets li::before{ content:""; width:7px; height:7px; background:var(--coral); margin-top:9px; flex:none; border-radius:1px; }
+
+  /* compare panel */
+  .compare{ border:1px solid var(--light-line); border-radius:18px; padding:40px; background:#fff; }
+  .light .compare{ background:#fff; }
+  .compare .ctop{ display:flex; justify-content:space-between; font-size:11px; letter-spacing:.2em;
+    text-transform:uppercase; color:var(--light-muted); }
+  .compare .vis{ display:flex; align-items:center; gap:18px; margin:30px 0 26px; }
+  .netgraph{ width:100%; height:auto; }
+  .netgraph.trad{ flex:1.6; max-height:188px; }
+  .netgraph.pod{ flex:1; max-height:188px; }
+  .arrow{ color:var(--coral); font-size:26px; flex:none; }
+  .compare .cbot{ display:flex; justify-content:space-between; font-size:14px; color:var(--light-muted); }
+  .compare .cbot b{ color:var(--light-ink); font-weight:600; }
+  .compare .cbot .coral{ color:var(--coral); }
+
+  /* role grid (what you get) */
+  .grid3{ margin-top:70px; border:1px solid var(--line); border-radius:14px; overflow:hidden;
+    display:grid; grid-template-columns:repeat(3,1fr); }
+  @media(max-width:820px){ .grid3{ grid-template-columns:1fr; } }
+  .cell{ padding:40px 36px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); min-height:210px; }
+  .cell:nth-child(3n){ border-right:none; }
+  .cell .ico{ width:34px; height:34px; color:var(--coral); margin-bottom:26px; }
+  .cell h3{ font-size:21px; font-weight:500; letter-spacing:-.02em; }
+  .cell p{ margin-top:12px; color:var(--muted); font-size:15px; line-height:1.5; }
+
+  /* three feature cols */
+  .feat3{ display:grid; grid-template-columns:repeat(3,1fr); gap:50px; margin-top:70px; }
+  @media(max-width:820px){ .feat3{ grid-template-columns:1fr; gap:40px; } }
+  .feat .fn{ font-size:12px; letter-spacing:.2em; text-transform:uppercase; color:var(--coral); }
+  .feat h3{ font-size:clamp(24px,2.4vw,32px); font-weight:300; letter-spacing:-.02em; margin:18px 0 14px; }
+  .feat p{ color:var(--muted); font-size:16px; line-height:1.55; }
+
+  /* single-line closer variant */
+  .closer.tight-line{ font-size:clamp(20px,2.3vw,30px); }
+  @media(min-width:900px){ .closer.tight-line{ white-space:nowrap; } }
+
+  /* sprint cadence graphic (why it's different) */
+  .cadence{ margin:62px 0 6px; border:1px solid var(--line); border-radius:16px;
+    padding:34px 44px 30px; background:var(--bg2); }
+  .cad-top{ display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;
+    font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted2); margin-bottom:30px; }
+  .cad-top .lhs{ color:var(--coral); }
+  .cad-rail{ position:relative; height:76px; }
+  .cad-base{ position:absolute; left:0; right:0; top:18px; height:1px; background:var(--line); }
+  .cad-runner{ position:absolute; top:18px; left:0; width:11px; height:11px; border-radius:50%;
+    background:var(--coral); transform:translate(-50%,-50%);
+    box-shadow:0 0 0 6px rgba(232,92,80,.16); animation:cadrun 6.5s linear infinite; }
+  .cad-stop{ position:absolute; top:0; transform:translateX(-50%); text-align:center; width:96px; }
+  .cad-stop i{ display:block; width:13px; height:13px; border-radius:50%; border:1.5px solid var(--coral);
+    background:var(--bg2); margin:11.5px auto 0; box-sizing:border-box; animation:cadpulse 6.5s ease-in-out infinite; }
+  .cad-stop b{ display:block; margin-top:15px; font-size:13px; font-weight:500; letter-spacing:-.01em; color:var(--text); }
+  .cad-stop span{ display:block; font-size:10px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted2); margin-top:3px; }
+  .cad-stop.ship i{ background:var(--coral); }
+  .cad-stop.ship b{ color:var(--coral); }
+  @keyframes cadrun{ 0%{ left:0; opacity:0 } 4%{ opacity:1 } 96%{ opacity:1 } 100%{ left:100%; opacity:0 } }
+  @keyframes cadpulse{ 0%,100%{ transform:scale(1) } 50%{ transform:scale(1.35); border-color:#f08178 } }
+  @media(prefers-reduced-motion:reduce){ .cad-runner,.cad-stop i{ animation:none } }
+
+  /* workflow */
+  .flow{ margin-top:70px; display:grid; grid-template-columns:repeat(7,1fr); gap:0; }
+  @media(max-width:900px){ .flow{ grid-template-columns:repeat(2,1fr); gap:24px; } }
+  .fstep{ padding:26px 22px 26px 0; border-top:1px solid var(--light-line); position:relative; }
+  .fstep .fsn{ font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--light-muted); }
+  .fstep .fst{ margin-top:14px; font-size:17px; font-weight:500; letter-spacing:-.01em; line-height:1.25; }
+  .fstep.ship .fst{ color:var(--coral); }
+
+  /* human-in-the-loop pipeline (how the work gets done) */
+  .pipe{ margin-top:64px; border:1px solid var(--light-line); border-radius:18px; background:#fff; padding:36px 48px 40px; }
+  .pipe-top{ display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;
+    font-size:11px; letter-spacing:.18em; text-transform:uppercase; }
+  .pipe-top .ai{ color:var(--light-muted); }
+  .pipe-top .hu{ color:var(--coral); }
+  .dgraph-wrap{ margin-top:24px; }
+  .dgraph{ width:100%; height:auto; display:block; }
+  .dgraph .flow{ stroke-dasharray:4 12; animation:dgflow 1s linear infinite; }
+  @keyframes dgflow{ to{ stroke-dashoffset:-16 } }
+  .dgraph .hub{ transform-box:fill-box; transform-origin:center; animation:dgpulse 3.2s ease-in-out infinite; }
+  @keyframes dgpulse{ 0%,100%{ transform:scale(1) } 50%{ transform:scale(1.16) } }
+  .dgraph .lb{ font-family:'Hanken Grotesk',system-ui,sans-serif; font-size:13.5px; }
+  .dgraph .lb.hub{ fill:var(--light-ink); font-weight:600; }
+  .dgraph .lb.ai{ fill:#8d8d8b; font-weight:500; }
+  .dglegend{ display:flex; gap:28px; margin-top:18px; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--light-muted); }
+  .dglegend .lg{ display:flex; align-items:center; gap:9px; }
+  .dglegend .lg::before{ content:""; width:11px; height:11px; border-radius:50%; }
+  .dglegend .lg.hub::before{ background:var(--coral); }
+  .dglegend .lg.ai::before{ background:#cdc6b6; }
+  @media(prefers-reduced-motion:reduce){ .dgraph .flow,.dgraph .hub{ animation:none } }
+
+  /* pricing tiers */
+  .tiers{ display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:64px; }
+  @media(max-width:820px){ .tiers{ grid-template-columns:1fr; } }
+  .tier{ border:1px solid var(--line); border-radius:20px; padding:42px 40px; position:relative; background:var(--bg2); }
+  .tier.hi{ border-color:var(--coral); }
+  .tier .tflag{ position:absolute; top:24px; right:28px; font-size:10.5px; letter-spacing:.2em;
+    text-transform:uppercase; color:var(--coral); border:1px solid var(--coral); border-radius:999px; padding:6px 13px; }
+  .tier .tname{ font-size:26px; font-weight:400; letter-spacing:-.02em; }
+  .tier .tdesc{ color:var(--muted); margin:18px 0 30px; font-size:16px; line-height:1.55; min-height:78px; }
+  .tier .price{ font-size:clamp(40px,4.6vw,58px); font-weight:300; letter-spacing:-.04em; line-height:1; }
+  .tier .price small{ font-size:17px; color:var(--muted2); letter-spacing:0; }
+  .tier .tmeta{ margin-top:16px; font-size:13px; letter-spacing:.04em; color:var(--muted2); }
+  .pricenote{ margin-top:26px; }
+
+  /* cost bars */
+  .costs{ margin-top:80px; }
+  .bar{ display:grid; grid-template-columns:230px 1fr 70px; align-items:center; gap:20px;
+    padding:15px 0; border-bottom:1px solid var(--line); }
+  @media(max-width:820px){ .bar{ grid-template-columns:150px 1fr 56px; gap:12px; } }
+  .bar .blbl{ font-size:15px; color:var(--muted); text-align:right; }
+  .bar.hi .blbl{ color:var(--coral); }
+  .bar .btrack{ height:10px; }
+  .bar .bfill{ height:10px; border-radius:5px; background:rgba(250,250,249,.22); }
+  .bar.hi .bfill{ background:var(--coral); }
+  .bar .bval{ font-size:14px; color:var(--muted2); }
+
+  /* proof */
+  .proof-grid{ display:grid; grid-template-columns:1.3fr 1fr; gap:60px; align-items:start; }
+  @media(max-width:900px){ .proof-grid{ grid-template-columns:1fr; gap:40px; } }
+  .clientcard{ border:1px solid var(--light-line); border-radius:18px; padding:36px; background:#fff; }
+  .clientcard .cl{ font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--light-muted); }
+  .clientcard .cn{ font-size:30px; font-weight:400; letter-spacing:-.02em; margin-top:12px; }
+  .clientcard .cmeta{ color:var(--light-muted); margin-top:6px; font-size:14px; }
+  .clientcard .tags{ margin-top:22px; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:#9a978f; }
+
+  /* proof timeline contrast */
+  .timeline{ margin-top:56px; border:1px solid var(--light-line); border-radius:18px; background:#fff; padding:40px 46px 32px; }
+  .tl-row{ margin-bottom:26px; }
+  .tl-lab{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin-bottom:11px; }
+  .tl-lab .who{ font-size:13px; font-weight:600; color:var(--light-ink); letter-spacing:.01em; }
+  .tl-lab .who.r{ color:var(--coral); }
+  .tl-lab .dur{ font-size:12px; color:var(--light-muted); letter-spacing:.04em; }
+  .tl-track{ position:relative; height:38px; background:#f0ede6; border-radius:9px; overflow:hidden; }
+  .tl-bar{ position:absolute; left:0; top:0; height:100%; display:flex; align-items:center; gap:9px;
+    padding:0 16px; border-radius:9px; font-size:12px; white-space:nowrap; }
+  .tl-bar.stuck{ width:100%; color:#7a746a;
+    background:repeating-linear-gradient(45deg,#ded7c8 0,#ded7c8 9px,#e9e3d6 9px,#e9e3d6 18px); }
+  .tl-bar.ship{ width:25%; color:#fff; font-weight:600; background:var(--coral); }
+  .tl-axis{ display:flex; justify-content:space-between; margin-top:15px; font-size:11px; letter-spacing:.1em; color:var(--light-muted); }
+  .reveal.in .tl-bar.ship{ animation:tlgrow 1.25s cubic-bezier(.2,.7,.2,1); }
+  @keyframes tlgrow{ from{ width:0 } to{ width:25% } }
+  @media(prefers-reduced-motion:reduce){ .reveal.in .tl-bar.ship{ animation:none } }
+  .ba3{ display:grid; grid-template-columns:repeat(3,1fr); gap:40px; margin-top:56px; }
+  @media(max-width:820px){ .ba3{ grid-template-columns:1fr; gap:28px; } }
+  .ba3 .bl{ font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--light-muted); padding-bottom:14px; border-bottom:1px solid var(--light-line); }
+  .ba3 .bl.aft{ color:var(--coral); }
+  .ba3 p{ margin-top:18px; font-size:18px; line-height:1.5; color:#2a2a27; }
+  /* enterprise logos band */
+  .logos{ margin-top:54px; border-top:1px solid var(--light-line); padding-top:34px; }
+  .logos-lab{ font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--light-muted); margin-bottom:22px; }
+  .logos-row{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:22px 30px; }
+  @media(max-width:640px){ .logos-row{ justify-content:center; gap:18px 26px; } }
+  .logos-row span{ font-size:clamp(20px,2.3vw,30px); font-weight:600; letter-spacing:-.02em; color:#26241f; opacity:.6; }
+
+  /* fits */
+  .fits{ display:grid; grid-template-columns:1fr 1fr; gap:0 60px; margin-top:60px; }
+  @media(max-width:820px){ .fits{ grid-template-columns:1fr; } }
+  .fititem{ display:flex; gap:18px; padding:28px 0; border-bottom:1px solid var(--line); align-items:start; }
+  .fititem .fa{ color:var(--coral); font-size:22px; line-height:1.2; flex:none; }
+  .fititem p{ font-size:clamp(18px,1.7vw,22px); font-weight:300; letter-spacing:-.01em; }
+
+  /* faq */
+  .faq{ margin-top:56px; border-top:1px solid var(--light-line); }
+  .faq details{ border-bottom:1px solid var(--light-line); }
+  .faq summary{ list-style:none; cursor:pointer; padding:30px 0; display:flex; justify-content:space-between;
+    align-items:center; gap:20px; font-size:clamp(20px,2.1vw,28px); font-weight:300; letter-spacing:-.02em; }
+  .faq summary::-webkit-details-marker{ display:none; }
+  .faq summary .pm{ flex:none; width:24px; height:24px; position:relative; }
+  .faq summary .pm::before,.faq summary .pm::after{ content:""; position:absolute; background:var(--light-ink);
+    transition:.25s; }
+  .faq summary .pm::before{ top:11px; left:2px; right:2px; height:2px; }
+  .faq summary .pm::after{ left:11px; top:2px; bottom:2px; width:2px; }
+  .faq details[open] summary .pm::after{ transform:scaleY(0); }
+  .faq .ans{ padding:0 0 30px; max-width:80ch; color:var(--light-muted); font-size:17px; line-height:1.6; }
+
+  /* CTA */
+  .cta{ padding:0 0 130px; }
+  .cta-panel{ position:relative; overflow:hidden; border-radius:26px; background:var(--bg2);
+    border:1px solid var(--line2); padding:96px 70px; }
+  #ctaCanvas{ position:absolute; inset:0; width:100%; height:100%; opacity:.5; }
+  .cta-panel .inner{ position:relative; z-index:2; }
+  .cta-panel h2{ max-width:16ch; }
+  .cta-panel .lead{ margin-top:26px; max-width:54ch; }
+  .contact{ margin-top:44px; display:flex; gap:56px; align-items:flex-start; flex-wrap:wrap; }
+  .contact .who{ font-size:19px; } .contact .who span{ color:var(--muted2); }
+  .contact .person .det{ margin-top:6px; }
+  .contact .det a{ color:var(--coral); text-decoration:none; font-size:16px; }
+  /* mobile-first: portrait sits just below the Schedule-a-call button */
+  .cta-portrait{ margin:36px 0 4px; text-align:left; }
+  .cta-portrait img{ width:150px; height:150px; border-radius:50%; object-fit:cover; object-position:center top;
+    border:1px solid rgba(250,250,249,.18); background:#211d1a; display:block; }
+  .cta-portrait figcaption{ margin-top:16px; font-size:15px; font-weight:500; color:var(--text); }
+  .cta-portrait figcaption span{ display:block; font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted2); margin-top:5px; }
+  @media(min-width:861px){
+    .cta-panel .inner{ padding-right:300px; }
+    .cta-portrait{ position:absolute; right:0; top:50%; transform:translateY(-50%); margin:0; text-align:center; }
+    .cta-portrait img{ width:210px; height:210px; }
+  }
+
+  /* mid-page CTA bands */
+  .ctaband{ padding:54px 0; border-top:1px solid var(--line2); border-bottom:1px solid var(--line2);
+    background:radial-gradient(120% 170% at 50% 50%, rgba(232,92,80,.11), transparent 70%), var(--bg2); color:var(--text); }
+  .ctaband-in{ display:flex; align-items:center; justify-content:space-between; gap:24px 44px; flex-wrap:wrap; }
+  .cb-h{ font-size:clamp(24px,2.7vw,34px); font-weight:300; letter-spacing:-.025em; line-height:1.05; }
+  .cb-s{ color:var(--muted); margin-top:9px; font-size:16px; }
+  .ctaband .btn{ flex:none; }
+
+  /* pricing tier CTA buttons */
+  .tier-cta{ margin-top:28px; display:flex; width:100%; justify-content:center; }
+
+  /* footer */
+  footer{ border-top:1px solid var(--line2); padding:60px 0 50px; }
+  .foot{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:24px; }
+  .foot .small a{ color:var(--muted2); text-decoration:none; }
+  .foot .small a:hover{ color:var(--text); }
+  .foot-meta{ display:flex; flex-direction:column; gap:6px; text-align:right; }
+  .footcta{ text-decoration:none; display:flex; flex-direction:column; gap:6px; }
+  .footcta .fc-k{ font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted2); }
+  .footcta .fc-l{ font-size:16px; color:var(--text); letter-spacing:-.01em; display:inline-flex; align-items:center; gap:9px; white-space:nowrap; transition:color .2s; }
+  .footcta .fc-l .ar{ transition:transform .2s ease, color .2s; }
+  .footcta:hover .fc-l{ color:var(--coral); }
+  .footcta:hover .fc-l .ar{ transform:translateX(5px); color:var(--coral); }
+  @media(max-width:760px){ .foot{ flex-direction:column; align-items:flex-start; } .foot-meta{ text-align:left; } }
+
+  /* reveal (only hide when JS is active) */
+  .js .reveal{ opacity:0; transform:translateY(26px); transition:opacity .8s ease, transform .8s ease; }
+  .js .reveal.in{ opacity:1; transform:none; }
+  @media(prefers-reduced-motion:reduce){ .js .reveal{ opacity:1; transform:none; } }
+
+  .rabbit{ height:30px; width:auto; display:block; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header id="hdr">
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <img class="rabbit" src="data:image/png;base64,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" alt="White Rabbit Group">
+    </a>
+    <ul class="navlinks">
+      <li><a href="#problem">The Problem</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#proof">Proof</a></li>
+    </ul>
+    <a class="btn nav-cta" href="#contact">Book a call</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <canvas id="heroCanvas"></canvas>
+  <div class="wrap">
+    <div class="hero-tag">Prepared for Mindtickle</div>
+    <div class="lockup">
+      <div class="word">Delivery <span class="serif-it">Pods</span></div>
+      <span class="pw">powered by White Rabbit Group</span>
+    </div>
+    <h1 class="display">Ship the revenue productivity AI roadmap your team <span class="serif-it coral">can&rsquo;t</span> get to.</h1>
+    <p class="lead sub">An embedded, senior, 100% in-house pod that owns your sales readiness AI, coaching, and analytics delivery backlog and ships inside your process &mdash; so your core engineers stay on the revenue productivity platform, without new headcount.</p>
+    <div class="actions">
+      <a class="btn solid" href="#contact">Book a scoping call</a>
+      <a class="btn" href="#how">See how it works</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="sec" id="problem">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><span class="tick"></span> The problem</div>
+      <h2 class="h-lg">The roadmap is set.<br>The headcount isn&rsquo;t.</h2>
+    </div>
+    <div class="plist reveal">
+      <div class="prow"><div class="pn">01</div><div class="pt">Revenue organizations want training, coaching, enablement, and buyer engagement to feel more connected and AI-assisted.</div></div>
+      <div class="prow"><div class="pn">02</div><div class="pt">AI roleplays, readiness analytics, content workflows, and CRM integrations compete for the same senior engineering cycles.</div></div>
+      <div class="prow"><div class="pn">03</div><div class="pt">The gap shows up first in coaching automation, insight surfaces, and enterprise workflow integrations.</div></div>
+      <div class="prow"><div class="pn">04</div><div class="pt">Hiring is slow and won&rsquo;t clear the backlog this quarter.</div></div>
+    </div>
+    <p class="closer nowrap reveal">It&rsquo;s not a talent problem. <span class="serif-it coral">It&rsquo;s a capacity problem.</span></p>
+  </div>
+</section>
+
+<!-- WHY A POD (light) -->
+<section class="sec light">
+  <div class="wrap cols2">
+    <div class="reveal">
+      <div class="eyebrow"><span class="tick"></span> Why a pod</div>
+      <h2 class="h-lg" style="margin-top:22px;">A small team can now outship a big one.</h2>
+      <ul class="bullets">
+        <li>Our AI-assisted delivery pods change the math &mdash; fewer people, more output, one defined delivery process.</li>
+        <li>We don&rsquo;t add headcount. We embed a small, senior pod that owns your sales readiness AI, coaching, and analytics backlog and ships inside your process and tooling.</li>
+        <li>Your core engineers stay on the revenue productivity platform &mdash; without the hiring cycle, onboarding, or management overhead.</li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <div class="compare">
+        <div class="ctop"><span>Traditional team</span><span class="coral">White Rabbit pod</span></div>
+        <div class="vis">
+          <svg class="netgraph trad" viewBox="0 0 220 196" xmlns="http://www.w3.org/2000/svg" fill="none">
+      <defs><marker id="ah-grey" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="#b9b2a2"/></marker></defs>
+      <g>
+        <path d="M110.0 16.0 L139.0 28.0 L168.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 16.0 L151.0 57.0 L192.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 16.0 L110.0 98.0 L110.0 180.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 16.0 L123.5 43.5 L136.9 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 40.0 L180.0 69.0 L192.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 40.0 L168.0 98.0 L168.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 40.0 L110.0 98.0 L52.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 40.0 L152.4 55.5 L136.9 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M192.0 98.0 L180.0 127.0 L168.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M192.0 98.0 L151.0 139.0 L110.0 180.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M192.0 98.0 L110.0 98.0 L28.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M192.0 98.0 L164.4 84.5 L136.9 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 156.0 L139.0 168.0 L110.0 180.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 156.0 L110.0 156.0 L52.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 156.0 L110.0 98.0 L52.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M168.0 156.0 L152.4 140.4 L136.9 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 180.0 L81.0 168.0 L52.0 156.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 180.0 L69.0 139.0 L28.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M110.0 180.0 L123.5 152.4 L136.9 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 156.0 L40.0 127.0 L28.0 98.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 156.0 L52.0 98.0 L52.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 156.0 L67.5 140.4 L83.1 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M28.0 98.0 L69.0 57.0 L110.0 16.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M28.0 98.0 L40.0 69.0 L52.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M28.0 98.0 L55.5 111.5 L83.1 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 40.0 L81.0 28.0 L110.0 16.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 40.0 L110.0 40.0 L168.0 40.0" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M52.0 40.0 L67.5 55.5 L83.1 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 71.1 L136.9 98.0 L136.9 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 71.1 L110.0 98.0 L83.1 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 71.1 L110.0 71.1 L83.1 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 124.9 L110.0 124.9 L83.1 124.9" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M136.9 124.9 L110.0 98.0 L83.1 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+        <path d="M83.1 124.9 L83.1 98.0 L83.1 71.1" stroke="#d3cdbe" stroke-width="1.1" marker-mid="url(#ah-grey)"/>
+      </g>
+      <g>
+        <circle cx="110.0" cy="16.0" r="5" fill="#cbc4b4"/>
+        <circle cx="168.0" cy="40.0" r="5" fill="#cbc4b4"/>
+        <circle cx="192.0" cy="98.0" r="5" fill="#cbc4b4"/>
+        <circle cx="168.0" cy="156.0" r="5" fill="#cbc4b4"/>
+        <circle cx="110.0" cy="180.0" r="5" fill="#cbc4b4"/>
+        <circle cx="52.0" cy="156.0" r="5" fill="#cbc4b4"/>
+        <circle cx="28.0" cy="98.0" r="5" fill="#cbc4b4"/>
+        <circle cx="52.0" cy="40.0" r="5" fill="#cbc4b4"/>
+        <circle cx="136.9" cy="71.1" r="5" fill="#cbc4b4"/>
+        <circle cx="136.9" cy="124.9" r="5" fill="#cbc4b4"/>
+        <circle cx="83.1" cy="124.9" r="5" fill="#cbc4b4"/>
+        <circle cx="83.1" cy="71.1" r="5" fill="#cbc4b4"/>
+      </g>
+    </svg>
+          <div class="arrow">&rarr;</div>
+          <svg class="netgraph pod" viewBox="0 0 150 192" xmlns="http://www.w3.org/2000/svg" fill="none">
+      <defs><marker id="ah-red" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="#e85c50"/></marker></defs>
+      <g>
+        <path d="M75 50 L97.5 77.0 L120 104" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M75 50 L75.0 104.0 L75 158" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M75 50 L52.5 77.0 L30 104" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M120 104 L97.5 131.0 L75 158" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M120 104 L75.0 104.0 L30 104" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+        <path d="M75 158 L52.5 131.0 L30 104" stroke="#e85c50" stroke-width="1.5" marker-mid="url(#ah-red)"/>
+      </g>
+      <g>
+        <circle cx="75" cy="50" r="8.5" fill="#e85c50"/>
+        <circle cx="120" cy="104" r="8.5" fill="#e85c50"/>
+        <circle cx="75" cy="158" r="8.5" fill="#e85c50"/>
+        <circle cx="30" cy="104" r="8.5" fill="#e85c50"/>
+      </g>
+    </svg>
+        </div>
+        <div class="cbot"><span>large team<br>slow throughput</span><span style="text-align:right;"><b>4&ndash;6 people</b><br><span class="coral">ships faster</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><span class="tick"></span> What you get</div>
+      <h2 class="h-lg">A pod, not a pile<br>of contractors.</h2>
+      <p class="lead">An embedded team that works inside your process and owns the sales readiness AI, coaching, and analytics backlog end to end.</p>
+    </div>
+    <div class="grid3 reveal">
+      <div class="cell">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/><path d="M18 5l1.5 1.5L22 4"/></svg>
+        <h3>Outcome Owner&trade;</h3>
+        <p>Accountable for what ships. Runs the backlog. Your single point of contact.</p>
+      </div>
+      <div class="cell">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18v12H3z"/><path d="M3 17l4 4M21 17l-4 4M8 9l-2 2 2 2M16 9l2 2-2 2M13 8l-2 6"/></svg>
+        <h3>AI Delivery Architect</h3>
+        <p>Owns technical design and how the work actually gets built.</p>
+      </div>
+      <div class="cell">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>
+        <h3>AI Engineers</h3>
+        <p>Build, test, ship &mdash; AI-assisted and senior-led.</p>
+      </div>
+      <div class="cell">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7a8 4 0 0 0 16 0 8 4 0 0 0-16 0v10a8 4 0 0 0 16 0V7"/><path d="M9 12l2 2 4-4"/></svg>
+        <h3>QA Automation Engineer</h3>
+        <p>Coverage, regression, and release safety, every sprint.</p>
+      </div>
+      <div class="cell">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>
+        <h3>DevOps + Design</h3>
+        <p>Shared support, pulled in as the work needs it.</p>
+      </div>
+      <div class="cell" style="display:flex;flex-direction:column;justify-content:center;">
+        <h3 class="serif-it" style="font-size:26px;">Owned delivery,<br>end to end.</h3>
+        <p>One team. One outcome. One accountable owner &mdash; not staff aug.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND 1 -->
+<section class="ctaband reveal">
+  <div class="wrap ctaband-in">
+    <div>
+      <div class="cb-h">Shipping revenue AI faster than hiring can keep up?</div>
+      <div class="cb-s">Embed a senior pod that owns the sales readiness AI, coaching, and analytics backlog and ships it.</div>
+    </div>
+    <a class="btn solid" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Book a scoping call</a>
+  </div>
+</section>
+
+<!-- WHY IT'S DIFFERENT -->
+<section class="sec tight">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><span class="tick"></span> Why it&rsquo;s different</div>
+      <h2 class="h-lg">Not staff augmentation.<br>Owned delivery.</h2>
+    </div>
+    <div class="cadence reveal">
+      <div class="cad-top"><span class="lhs">Defined cadence</span><span>A demo every sprint &middot; one accountable owner</span></div>
+      <div class="cad-rail">
+        <div class="cad-base"></div>
+        <div class="cad-runner"></div>
+        <div class="cad-stop" style="left:6%"><i style="animation-delay:.25s"></i><b>Sprint 1</b><span>Demo</span></div>
+        <div class="cad-stop" style="left:28%"><i style="animation-delay:1.65s"></i><b>Sprint 2</b><span>Demo</span></div>
+        <div class="cad-stop" style="left:50%"><i style="animation-delay:3.05s"></i><b>Sprint 3</b><span>Demo</span></div>
+        <div class="cad-stop" style="left:72%"><i style="animation-delay:4.45s"></i><b>Sprint 4</b><span>Demo</span></div>
+        <div class="cad-stop ship" style="left:94%"><i style="animation-delay:5.85s"></i><b>Ship</b><span>Release</span></div>
+      </div>
+    </div>
+    <div class="feat3 reveal">
+      <div class="feat"><div class="fn">01 / Accountability</div><h3>One clear owner</h3><p>An Outcome Owner&trade; is responsible for what gets delivered &mdash; not just another contractor for you to manage.</p></div>
+      <div class="feat"><div class="fn">02 / Discipline</div><h3>No black boxes</h3><p>A defined cadence, a clear definition of done, and a demo every sprint. You always know where things stand.</p></div>
+      <div class="feat"><div class="fn">03 / Method</div><h3>Built for speed</h3><p>An AI-native workflow that lets a small team move at the pace of a large one.</p></div>
+    </div>
+    <p class="closer tight-line reveal" style="margin-top:60px;">The difference isn&rsquo;t the tools we use. <span class="serif-it coral">It&rsquo;s the process we run them with.</span></p>
+  </div>
+</section>
+
+<!-- HOW THE WORK GETS DONE (light) -->
+<section class="sec light" id="how">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><span class="tick"></span> How the work gets done</div>
+      <h2 class="h-lg">AI-native, Outcome Owner&trade; led.</h2>
+    </div>
+    <div class="pipe reveal">
+      <div class="pipe-top">
+        <span class="ai">AI explores in parallel</span>
+        <span class="hu">Outcome Owner&trade; makes the calls &rarr; shipped</span>
+      </div>
+      <div class="dgraph-wrap">
+        <svg class="dgraph" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
+      <g>
+        <path d="M80,115 C190,115 230,42 330,42" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M80,115 C190,115 230,115 330,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M80,115 C190,115 230,188 330,188" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M330,42 C440,42 470,115 580,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M330,115 C440,115 470,115 580,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M330,188 C440,188 470,115 580,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M580,115 L700,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+        <path d="M700,115 L830,115" stroke="#ddd6c8" stroke-width="1.6" fill="none"/>
+      </g>
+      <g>
+        <path class="flow" d="M80,115 C190,115 230,42 330,42" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M80,115 C190,115 230,115 330,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M80,115 C190,115 230,188 330,188" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M330,42 C440,42 470,115 580,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M330,115 C440,115 470,115 580,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M330,188 C440,188 470,115 580,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M580,115 L700,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+        <path class="flow" d="M700,115 L830,115" stroke="#e85c50" stroke-width="1.6" fill="none"/>
+      </g>
+      <g>
+        <circle cx="330" cy="42" r="7" fill="#cdc6b6"/>
+        <circle cx="330" cy="115" r="7" fill="#cdc6b6"/>
+        <circle cx="330" cy="188" r="7" fill="#cdc6b6"/>
+        <circle cx="700" cy="115" r="6" fill="#cdc6b6"/>
+      </g>
+      <g>
+        <circle class="hub" cx="80" cy="115" r="9" fill="#e85c50"/>
+        <circle class="hub" cx="580" cy="115" r="9" fill="#e85c50"/>
+        <circle class="hub" cx="830" cy="115" r="10" fill="#e85c50"/>
+      </g>
+      <g>
+        <text x="80" y="142" text-anchor="middle" class="lb hub">Spec &amp; architecture</text>
+        <text x="330" y="26" text-anchor="middle" class="lb ai">Task breakdown</text>
+        <text x="330" y="142" text-anchor="middle" class="lb ai">AI pair programming</text>
+        <text x="330" y="212" text-anchor="middle" class="lb ai">Test generation</text>
+        <text x="580" y="142" text-anchor="middle" class="lb hub">Pre-PR review</text>
+        <text x="700" y="142" text-anchor="middle" class="lb ai">CI</text>
+        <text x="830" y="142" text-anchor="middle" class="lb hub">Shipped</text>
+      </g>
+    </svg>
+        <div class="dglegend"><span class="lg hub">Outcome Owner&trade; decision</span><span class="lg ai">AI branch</span></div>
+      </div>
+    </div>
+    <p class="lead reveal" style="margin-top:60px;max-width:80ch;">We use the best tools available &mdash; Claude Code, OpenAI agents, Cursor, Copilot. We don&rsquo;t reinvent them, and we don&rsquo;t build or train models. The value is in our process and delivery rigor, with human seniority on the decisions that matter.</p>
+  </div>
+</section>
+
+<!-- PRICING / ENGAGEMENT LADDER -->
+<section class="sec" id="pricing">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><span class="tick"></span> Where to start</div>
+      <h2 class="h-lg">Start with an audit.<br>Scale into a pod.</h2>
+      <p class="lead">Begin with a short, low-commitment Delivery Audit of one workstream &mdash; you get a concrete plan whether or not we go further. Then embed a pod to clear the backlog.</p>
+    </div>
+    <div class="tiers reveal">
+      <div class="tier hi">
+        <div class="tflag">Start here</div>
+        <div class="tname">Delivery Audit</div>
+        <div class="tdesc">A short, fixed-scope audit of your sales readiness AI, coaching, and analytics delivery pipeline. We map where the backlog accumulates, find the highest-leverage place to augment, and hand you a concrete plan &mdash; whether or not we work together.</div>
+        <div class="price">1&ndash;2 wks<small> &middot; fixed scope</small></div>
+        <div class="tmeta">Low commitment &middot; concrete delivery plan</div>
+        <a class="btn solid tier-cta" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Scope a Delivery Audit</a>
+      </div>
+      <div class="tier">
+        <div class="tname">Embedded Engineering Pod</div>
+        <div class="tdesc">A dedicated, 100% in-house pod (engineers + lead) that owns your sales readiness AI, coaching, and analytics delivery backlog end to end and ships inside your process &mdash; freeing your senior engineers to stay on the revenue productivity platform.</div>
+        <div class="price">$126k<small> / 3-mo intro, then $46k / mo</small></div>
+        <div class="tmeta">Scales down when the backlog clears &middot; no headcount risk</div>
+        <a class="btn tier-cta" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Talk to us</a>
+      </div>
+    </div>
+    <p class="small pricenote reveal">Pricing is indicative and confirmed against scope before we quote.</p>
+
+    <div class="costs reveal">
+      <div class="eyebrow" style="margin-bottom:10px;"><span class="tick"></span> What companies would otherwise spend</div>
+      <p class="small" style="margin-bottom:26px;">Estimated monthly cost. Staff-aug options exclude management; the pod is fully managed.</p>
+      <div class="bar hi"><div class="blbl">White Rabbit Pod</div><div class="btrack"><div class="bfill" style="width:18%"></div></div><div class="bval">$46k</div></div>
+      <div class="bar"><div class="blbl">Nearshore staff aug</div><div class="btrack"><div class="bfill" style="width:23%"></div></div><div class="bval">$57k</div></div>
+      <div class="bar"><div class="blbl">In-house, fully loaded</div><div class="btrack"><div class="bfill" style="width:38%"></div></div><div class="bval">$96k</div></div>
+      <div class="bar"><div class="blbl">Boutique US studio</div><div class="btrack"><div class="bfill" style="width:45%"></div></div><div class="bval">$112k</div></div>
+      <div class="bar"><div class="blbl">Toptal Managed Delivery</div><div class="btrack"><div class="bfill" style="width:56%"></div></div><div class="bval">$140k</div></div>
+      <div class="bar"><div class="blbl">Thoughtworks / enterprise</div><div class="btrack"><div class="bfill" style="width:100%"></div></div><div class="bval">$250k</div></div>
+      <p class="lead" style="margin-top:30px;">Saves <span class="coral">up to $50k / month</span> against a fully loaded in-house team of equivalent size, and lands <span class="coral">around 65% below</span> Toptal Managed Delivery.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF (light) -->
+<section class="sec light" id="proof">
+  <div class="wrap">
+    <div class="proof-grid">
+      <div class="reveal">
+        <div class="eyebrow"><span class="tick"></span> Proof</div>
+        <h2 class="h-lg" style="margin-top:22px;">A partner, not a<br><span class="serif-it coral">churned vendor.</span></h2>
+        <p class="lead" style="margin-top:24px;max-width:48ch;">Delivery is a repeatable machine &mdash; 800+ projects shipped by a senior, 100% in-house team. Our named strengths, API &amp; enterprise integrations and AI workflow automation, map directly to the sales readiness AI, coaching, and analytics backlog.</p>
+      </div>
+      <div class="reveal">
+        <div class="clientcard">
+          <div class="cl">Track record</div>
+          <div class="cn">90% partner retention</div>
+          <div class="cmeta">800+ projects shipped &middot; 100% in-house team (74 FTE) &middot; no offshore hand-offs.</div>
+          <div class="tags">API &amp; Integrations &middot; AI Workflow Automation &middot; Enterprise-grade</div>
+        </div>
+      </div>
+    </div>
+    <div class="logos reveal">
+      <div class="logos-lab">Trusted with enterprise-grade delivery</div>
+      <div class="logos-row">
+        <span>Microsoft</span><span>Instacart</span><span>SAP</span><span>Google</span><span>FedEx</span><span>Spotify</span>
+      </div>
+    </div>
+    <div class="ba3 reveal">
+      <div><div class="bl">No ramp risk</div><p>An in-house pod that ships inside your process &mdash; no offshore hand-offs, one accountable team.</p></div>
+      <div><div class="bl">Exact-match skills</div><p>API &amp; enterprise integrations and AI workflow automation &mdash; the work behind your AI features.</p></div>
+      <div><div class="bl aft">Enterprise-proven</div><p>Delivered for Microsoft, SAP, Google and FedEx under enterprise security and scale.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND 2 -->
+<section class="ctaband reveal">
+  <div class="wrap ctaband-in">
+    <div>
+      <div class="cb-h">Keep your senior engineers on the revenue platform.</div>
+      <div class="cb-s">Hand the revenue productivity backlog to an embedded pod.</div>
+    </div>
+    <a class="btn solid" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Book a scoping call</a>
+  </div>
+</section>
+
+<!-- THIS FITS IF -->
+<section class="sec tight">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><span class="tick"></span> Who it&rsquo;s for</div>
+      <h2 class="h-lg">This fits if&hellip;</h2>
+    </div>
+    <div class="fits reveal">
+      <div class="fititem"><span class="fa">&rarr;</span><p>Your revenue productivity roadmap is set faster than you can hire to deliver it.</p></div>
+      <div class="fititem"><span class="fa">&rarr;</span><p>AI coaching and analytics work is pulling senior engineers off the core platform.</p></div>
+      <div class="fititem"><span class="fa">&rarr;</span><p>Enablement, CRM, and buyer workflow integrations are piling up.</p></div>
+      <div class="fititem"><span class="fa">&rarr;</span><p>You want one in-house team that owns the backlog, not contractors to manage.</p></div>
+    </div>
+    <p class="small reveal" style="margin-top:40px;max-width:80ch;">Best fit: revenue enablement SaaS teams shipping AI features and workflow integrations, with a strong in-house team and a delivery-capacity gap that hiring can&rsquo;t close fast enough.</p>
+  </div>
+</section>
+
+<!-- FAQ (light) -->
+<section class="sec light">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow"><span class="tick"></span> Common questions</div>
+      <h2 class="h-lg">What teams ask us first.</h2>
+    </div>
+    <div class="faq reveal">
+      <details open><summary>Won&rsquo;t we just hire for this?<span class="pm"></span></summary><div class="ans">A pod isn&rsquo;t a substitute for hiring &mdash; it&rsquo;s how you hit dates while you hire. Scale it down the day the backlog clears, with zero ramp or severance risk.</div></details>
+      <details><summary>How is this different from offshore or contractors?<span class="pm"></span></summary><div class="ans">Most of our work replaces staff-aug with an owned, 100% in-house pod &mdash; no offshore hand-offs, one accountable team. The Delivery Audit is a no-risk way to compare.</div></details>
+      <details><summary>Why you over a bigger firm?<span class="pm"></span></summary><div class="ans">100% in-house, 90% partner retention, 800+ projects shipped &mdash; senior people who stay, not a rotating bench, and faster than a large SI.</div></details>
+      <details><summary>Can you handle our security and scale?<span class="pm"></span></summary><div class="ans">We&rsquo;ve delivered for Microsoft, SAP, FedEx and Google under enterprise constraints. The Delivery Audit covers exactly how we&rsquo;d meet your security and compliance bar.</div></details>
+      <details><summary>It&rsquo;s not a priority right now.<span class="pm"></span></summary><div class="ans">Understood. The short Delivery Audit exists for exactly this &mdash; a concrete plan with no commitment, ready the moment clearing the sales readiness AI, coaching, and analytics backlog becomes urgent.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+  <div class="wrap">
+    <div class="cta-panel reveal">
+      <canvas id="ctaCanvas"></canvas>
+      <div class="inner">
+        <div class="eyebrow"><span class="tick"></span> Let&rsquo;s talk</div>
+        <h2 class="display" style="margin-top:22px;font-size:clamp(40px,5.4vw,80px);">Let&rsquo;s find one workstream <span class="serif-it coral">worth accelerating.</span></h2>
+        <p class="lead">A 30-minute call to pressure-test where your revenue productivity AI roadmap is outrunning capacity &mdash; and scope a short Delivery Audit of the workstream that would relieve the most pressure.</p>
+        <div class="actions" style="margin-top:40px;">
+          <a class="btn solid" href="https://meetings-na2.hubspot.com/rayna-weinreb" target="_blank" rel="noopener">Schedule a call</a>
+        </div>
+        <figure class="cta-portrait">
+          <img src="/images/rayna-weinreb.jpg" alt="Rayna Weinreb, Account Manager at White Rabbit Group">
+          <figcaption>Rayna Weinreb<span>Account Manager</span></figcaption>
+        </figure>
+        <div class="contact">
+          <div class="person">
+            <div class="who">Rayna Weinreb <span>&mdash; Account Manager</span></div>
+            <div class="det"><a href="mailto:rayna.weinreb@whiterabbit.group">rayna.weinreb@whiterabbit.group</a></div>
+          </div>
+          <div class="person">
+            <div class="who">Marschal Bellinger, PhD <span>&mdash; Director of Services</span></div>
+            <div class="det"><a href="mailto:marschal.bellinger@whiterabbit.group">marschal.bellinger@whiterabbit.group</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap foot">
+    <a class="brand" href="#top">
+      <img class="rabbit" src="data:image/png;base64,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" alt="White Rabbit Group">
+    </a>
+    <a class="footcta" href="https://whiterabbit.group/about-us" target="_blank" rel="noopener">
+      <span class="fc-k">Curious who&rsquo;s behind the pod?</span>
+      <span class="fc-l">Learn more about White Rabbit Group <span class="ar">&rarr;</span></span>
+    </a>
+    <div class="foot-meta">
+      <div class="small">Delivery Pods &mdash; ship the roadmap your team can&rsquo;t get to.</div>
+      <div class="small">&copy; 2026 White Rabbit Group &nbsp;&middot;&nbsp; <a href="https://whiterabbit.group">whiterabbit.group</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.documentElement.className+=' js';
+  // GA4: track Book-a-call / scheduler clicks as a conversion
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href*="meetings-na2.hubspot.com"]');
+    if(!a || typeof gtag !== 'function') return;
+    gtag('event','book_call_click',{
+      button_text: (a.innerText||'').trim().slice(0,60),
+      page_path: location.pathname
+    });
+  });
+  // sticky header state
+  const hdr=document.getElementById('hdr');
+  const onScroll=()=>hdr.classList.toggle('scrolled', window.scrollY>30);
+  onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+
+  // reveal on scroll
+  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // wireframe particle background (hero + cta)
+  function constellation(canvas){
+    const ctx=canvas.getContext('2d'); let w,h,pts,raf;
+    const DPR=Math.min(window.devicePixelRatio||1,2);
+    function size(){ w=canvas.clientWidth; h=canvas.clientHeight; canvas.width=w*DPR; canvas.height=h*DPR; ctx.setTransform(DPR,0,0,DPR,0,0); }
+    function init(){ size(); const n=Math.round(Math.min(70, w/16));
+      pts=Array.from({length:n},()=>({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.25})); }
+    function step(){ ctx.clearRect(0,0,w,h);
+      for(const p of pts){ p.x+=p.vx; p.y+=p.vy; if(p.x<0||p.x>w)p.vx*=-1; if(p.y<0||p.y>h)p.vy*=-1; }
+      for(let i=0;i<pts.length;i++){ for(let j=i+1;j<pts.length;j++){
+        const a=pts[i],b=pts[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.hypot(dx,dy);
+        if(d<130){ ctx.strokeStyle='rgba(250,250,249,'+(.10*(1-d/130))+')'; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke(); }
+      }}
+      ctx.fillStyle='rgba(250,250,249,.22)';
+      for(const p of pts){ ctx.beginPath(); ctx.arc(p.x,p.y,1.3,0,7); ctx.fill(); }
+      raf=requestAnimationFrame(step);
+    }
+    init(); step();
+    window.addEventListener('resize',()=>{ cancelAnimationFrame(raf); init(); step(); });
+  }
+  const hc=document.getElementById('heroCanvas'); if(hc) constellation(hc);
+  const cc=document.getElementById('ctaCanvas'); if(cc) constellation(cc);
+</script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
