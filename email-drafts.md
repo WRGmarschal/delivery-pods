@@ -263,7 +263,7 @@ Subject: One Alloy workstream worth accelerating
 
 Hi {{first_name}},
 
-Alloy’s Actionable AI suite sits on top of an orchestration layer that already connects hundreds of data partners. Each new fraud, risk, or AI assistant workflow raises the integration and reliability bar across the platform.
+Alloy.ai’s AI Agents — a Performance Reporting Agent, a Replenishment Agent, and Lens, an on-demand natural-language analyst — now run on top of a data layer unifying 450+ ERP, retailer, and distributor integrations. Each new agent raises the reliability bar on the others.
 
 My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/alloy): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
