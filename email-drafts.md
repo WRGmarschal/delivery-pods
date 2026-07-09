@@ -715,3 +715,530 @@ Best,
 Rayna
 
 Page: ./ncontracts.html
+
+## Nuvolo
+
+Subject: One Nuvolo workstream worth accelerating
+
+Hi {{first_name}},
+
+Nuvolo just launched Nuvolo AI — a connected data foundation built to power AI across facilities, asset, and workplace operations — a new integration layer landing on top of a platform already run by Trane Technologies.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/nuvolo): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Nuvolo move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./nuvolo.html
+
+## Paddle
+
+Subject: One Paddle workstream worth accelerating
+
+Hi {{first_name}},
+
+Paddle just launched Lovable Payments, routing monetization for AI-generated apps through its Merchant of Record rails, alongside a new Docs MCP server for AI coding assistants — two new integration surfaces on a platform that remitted $130M in sales tax last year.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/paddle): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Paddle move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./paddle.html
+
+## Pendo
+
+Subject: One Pendo workstream worth accelerating
+
+Hi {{first_name}},
+
+Pendo just launched Agent Analytics and an MCP server to measure whether AI agents are actually driving outcomes — a fast-moving new layer on a platform already tracking 35 trillion events.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/pendo): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Pendo move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./pendo.html
+
+## Persona
+
+Subject: One Persona workstream worth accelerating
+
+Hi {{first_name}},
+
+Persona just launched Relay, a new way to verify real people without over-collecting data, alongside platform agents that now handle case review automatically — both adding fresh integration surface area.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/persona): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Persona move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./persona.html
+
+## Phreesia
+
+Subject: One Phreesia workstream worth accelerating
+
+Hi {{first_name}},
+
+Phreesia’s automated intake platform keeps expanding its EHR integrations and Life Sciences data business, and every new connection adds to an already full delivery queue.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/phreesia): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Phreesia move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./phreesia.html
+
+## Plaid
+
+Subject: One Plaid workstream worth accelerating
+
+Hi {{first_name}},
+
+Plaid just launched Intelligent Finance — positioning itself as the AI infrastructure behind smarter financial products — plus a dedicated AI-companies vertical for the wave of AI-native fintechs now integrating against its network.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/plaid): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Plaid move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./plaid.html
+
+## Podium
+
+Subject: One Podium workstream worth accelerating
+
+Hi {{first_name}},
+
+Podium rebuilt itself entirely around the AI Employee — a 24/7 agent now hitting 36-second average response times and 45% higher conversion across 60,000+ businesses — and every vertical needs its own integration work to make that real.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/podium): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Podium move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./podium.html
+
+## Quantexa
+
+Subject: One Quantexa workstream worth accelerating
+
+Hi {{first_name}},
+
+Quantexa was just named a Leader in the 2025 Gartner Magic Quadrant for Decision Intelligence Platforms and launched Agent Gateway to ground AI agents in real-world graph context — a new integration layer for every enterprise customer.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/quantexa): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Quantexa move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./quantexa.html
+
+## Quantum Metric
+
+Subject: One Quantum Metric workstream worth accelerating
+
+Hi {{first_name}},
+
+Quantum Metric just launched Felix® Agentic, an AI analyst that runs continuously in the background instead of sitting in a dashboard, on the back of record 2025 enterprise expansion.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/quantummetric): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Quantum Metric move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./quantummetric.html
+
+## Ramp
+
+Subject: One Ramp workstream worth accelerating
+
+Hi {{first_name}},
+
+Ramp just launched Stack by Ramp — the AI operating system for accounting firms — a new integration surface across every firm’s existing ERP stack.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/ramp): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Ramp move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./ramp.html
+
+## Recurly
+
+Subject: One Recurly workstream worth accelerating
+
+Hi {{first_name}},
+
+Recurly’s subscription billing and revenue-recovery platform keeps adding new payment-gateway and dunning-logic integrations as its customer base scales.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/recurly): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Recurly move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./recurly.html
+
+## Reputation
+
+Subject: One Reputation workstream worth accelerating
+
+Hi {{first_name}},
+
+Reputation just launched a GEO Readiness Tool that tracks how brands appear inside ChatGPT, Gemini, and AI Overviews — a new integration surface beyond traditional search and reviews.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/reputation): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Reputation move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./reputation.html
+
+## Retool
+
+Subject: One Retool workstream worth accelerating
+
+Hi {{first_name}},
+
+Retool just launched an AI-powered app builder plus MCP support, letting AI assistants build and extend Retool apps directly — a fast-moving new integration layer for every enterprise deployment.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/retool): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Retool move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./retool.html
+
+## Sardine
+
+Subject: One Sardine workstream worth accelerating
+
+Hi {{first_name}},
+
+Sardine just launched Agentic Fraud & AML Ops, a full suite of named AI agents that run fraud and AML operations end to end — and every client needs those agents configured against their own risk rules.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/sardine): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Sardine move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./sardine.html
+
+## Sendbird
+
+Subject: One Sendbird workstream worth accelerating
+
+Hi {{first_name}},
+
+Sendbird just launched delight.ai, an AI concierge built directly on its messaging infrastructure — a new integration surface across every client’s existing chat and support workflows.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/sendbird): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Sendbird move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./sendbird.html
+
+## Showpad
+
+Subject: One Showpad workstream worth accelerating
+
+Hi {{first_name}},
+
+Showpad was just named a Leader in the 2025 Gartner Magic Quadrant for Revenue Enablement Platforms on the strength of GenieAI — safe, governed AI built specifically for regulated industries like medical devices and manufacturing.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/showpad): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Showpad move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./showpad.html
+
+## Sift
+
+Subject: One Sift workstream worth accelerating
+
+Hi {{first_name}},
+
+Sift just opened a new Score API for customers building their own internal risk models, right as its Q2 2026 Digital Trust Index shows the fraud economy scaling up faster than most teams can respond to.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/sift): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Sift move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./sift.html
+
+## Signifyd
+
+Subject: One Signifyd workstream worth accelerating
+
+Hi {{first_name}},
+
+Signifyd just published research framing agentic commerce — AI agents buying on behalf of consumers — as an imminent shift, and shipped a Winter Spark release explicitly built to future-proof merchants for the autonomous economy.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/signifyd): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Signifyd move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./signifyd.html
+
+## Snapdocs
+
+Subject: One Snapdocs workstream worth accelerating
+
+Hi {{first_name}},
+
+Snapdocs just automated mortgage Quality Control with AI-powered file review and published an AI-readiness assessment for lenders and title companies still catching up.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/snapdocs): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Snapdocs move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./snapdocs.html
+
+## Socure
+
+Subject: One Socure workstream worth accelerating
+
+Hi {{first_name}},
+
+Socure’s own data shows deepfakes and synthetic identities growing 50x annually and starting to outpace real human traffic — pushing every one of its 3,000+ customers to integrate faster against a moving threat.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/socure): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Socure move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./socure.html
+
+## Stampli
+
+Subject: One Stampli workstream worth accelerating
+
+Hi {{first_name}},
+
+Stampli now says its AI performs 87% of finance work on average across 2,700+ unique fields — explicitly positioned as not a copilot but an AI that operates the day-to-day P2P workflow itself.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/stampli): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Stampli move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./stampli.html
+
+## Strata Decision Technology
+
+Subject: One Strata workstream worth accelerating
+
+Hi {{first_name}},
+
+Strata just published "The Evolution of Forecasting," its playbook on how AI and predictive analytics are transforming financial planning across its 2,300+ hospital, university, and bank customers.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/strata): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Strata move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./strata.html
+
+## Symplr
+
+Subject: One Symplr workstream worth accelerating
+
+Hi {{first_name}},
+
+Symplr’s Smart Square just won Best in KLAS for 2025 and 2026 in Nurse & Staff Scheduling specifically for its AI predictive analytics and real-time EMR-driven staffing.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/symplr): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Symplr move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./symplr.html
+
+## Teamwork
+
+Subject: One Teamwork workstream worth accelerating
+
+Hi {{first_name}},
+
+Teamwork just launched AI Teammates and an AI Forecaster that gives instant profitability predictions from historical revenue and cost data — both need real historical data wired in to work well.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/teamwork): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Teamwork move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./teamwork.html
+
+## Tebra
+
+Subject: One Tebra workstream worth accelerating
+
+Hi {{first_name}},
+
+Tebra’s AI Smart Staff — AI Note Assist, AI Review Replies, and AI-powered Insights — now sits on top of the combined Kareo + PatientPop platform serving 150,000+ providers.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/tebra): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Tebra move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./tebra.html
+
+## Totango
+
+Subject: One Totango workstream worth accelerating
+
+Hi {{first_name}},
+
+Totango was just named a Leader in The Forrester Wave: Customer Success Platforms, Q4 2025, on the strength of Unison AI’s churn-intelligence predictions.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/totango): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Totango move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./totango.html
+
+## Unit21
+
+Subject: One Unit21 workstream worth accelerating
+
+Hi {{first_name}},
+
+Unit21’s AI agents now detect and investigate fraud end to end, and customers can build custom AI agent tasks in plain English — both need real configuration work per client’s specific rules.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/unit21): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Unit21 move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./unit21.html
+
+## UserTesting
+
+Subject: One UserTesting workstream worth accelerating
+
+Hi {{first_name}},
+
+UserTesting’s new pitch is that AI has collapsed the cost of creation, making customer validation the new bottleneck, not building itself — a message resonating across the 75 of the Fortune 100 already on its platform.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/usertesting): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help UserTesting move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./usertesting.html
+
+## WellSky
+
+Subject: One WellSky workstream worth accelerating
+
+Hi {{first_name}},
+
+WellSky’s post-acute and home-health care-coordination platform keeps adding new payer and provider integrations as care networks expand.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/wellsky): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help WellSky move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./wellsky.html
+
+## Zest AI
+
+Subject: One Zest AI workstream worth accelerating
+
+Hi {{first_name}},
+
+A Celent report Zest AI is promoting shows 83% of lenders will increase GenAI budgets in 2026 — demand that’s outrunning what most underwriting teams can integrate on their own.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/zestai): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Zest AI move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./zestai.html
+
+## Zinc
+
+Subject: One Zinc workstream worth accelerating
+
+Hi {{first_name}},
+
+Zinc’s background-check platform keeps expanding its ATS/HRIS integration marketplace as it scales past 2,000,000+ checks completed.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/zinc): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Zinc move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./zinc.html
