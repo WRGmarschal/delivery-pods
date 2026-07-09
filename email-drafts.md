@@ -212,11 +212,11 @@ Subject: One Scoure workstream worth accelerating
 
 Hi {{first_name}},
 
-I had a short company label from the connection list, so I’m keeping this deliberately focused: if Scoure has customer workflow, reporting, or integration work piling up around the core product, a focused pod could take on a defined workstream without adding permanent headcount.
+I had a short company label from the connection list, so I’m keeping this deliberately focused: if Scoure has customer workflow, reporting, or integration work piling up around the core product, a focused outside pod could help move that work forward without adding permanent headcount.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/scoure): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Scoure move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Scoure move faster without adding headcount?
 
 Best,
 Rayna
@@ -231,9 +231,9 @@ Hi {{first_name}},
 
 Tipalti has the kind of product surface where every customer win can add more ERP, payments, approval, tax, and compliance workflow pressure. Those are valuable workstreams, but they can quietly pull senior engineers away from the core platform.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/tipalti): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Tipalti move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Tipalti move faster without adding headcount?
 
 Best,
 Rayna
@@ -246,11 +246,11 @@ Subject: One AlayaCare workstream worth accelerating
 
 Hi {{first_name}},
 
-AlayaCare just introduced AlayaFlow, AI agents built to save caregivers time and cut costs across home care, home health, and infusion. Every new agent has to plug into scheduling, billing, and mobile workflows across all three care lines before it earns that trust — that's exactly the kind of integration backlog that tends to build up fast behind a fast-moving AI launch.
+AlayaCare’s AI and automation roadmap touches scheduling, billing, mobile caregiver workflows, and clinical operations across multiple care settings. Every new agent or workflow improvement has to plug into real operational systems before it can earn trust.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/alayacare): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help AlayaCare move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help AlayaCare move faster without adding headcount?
 
 Best,
 Rayna
@@ -263,11 +263,11 @@ Subject: One Alloy workstream worth accelerating
 
 Hi {{first_name}},
 
-Alloy's Actionable AI suite is now three products deep — Fraud Attack Radar, Fraud Signal, and AI Assistant — all routing through the same orchestration layer that already connects 270+ data partners. Each new AI product raises the integration and reliability bar on the others, which is exactly the kind of backlog a focused pod is built for.
+Alloy’s Actionable AI suite sits on top of an orchestration layer that already connects hundreds of data partners. Each new fraud, risk, or AI assistant workflow raises the integration and reliability bar across the platform.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/alloy): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Alloy move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Alloy move faster without adding headcount?
 
 Best,
 Rayna
@@ -280,11 +280,11 @@ Subject: One Apixio workstream worth accelerating
 
 Hi {{first_name}},
 
-Apixio sits at the center of prospective risk adjustment for health plans and providers — medical record review AI, HCC coding, and payer-provider integrations all have to move together without losing coding accuracy. That's a lot of valuable, detail-heavy delivery work to keep pace with.
+Apixio sits in a detail-heavy part of healthcare: medical record review, risk adjustment, coding accuracy, and payer-provider data workflows all have to move together. That is exactly the kind of delivery surface where focused extra capacity can help.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/apixio): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Apixio move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Apixio move faster without adding headcount?
 
 Best,
 Rayna
@@ -297,11 +297,11 @@ Subject: One Apollo.io workstream worth accelerating
 
 Hi {{first_name}},
 
-Apollo just shipped an MCP server on top of a platform already serving 600,000+ companies and 230M+ contacts — meaning AI agents can now query and act on Apollo's data directly. That's a new integration and security surface layered on an already fast-moving AI Assistant roadmap.
+Apollo’s platform now has a much larger AI and integration surface, from AI Assistant work to agent-facing data access through MCP. That creates a useful but demanding backlog around security, reliability, workflow automation, and product integrations.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/apolloio): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Apollo.io move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Apollo.io move faster without adding headcount?
 
 Best,
 Rayna
@@ -314,11 +314,11 @@ Subject: One Arcadia workstream worth accelerating
 
 Hi {{first_name}},
 
-Arcadia's whole value proposition is unifying EHR, claims, and SDoH data into one connected platform for payers, health systems, and ACOs. Aggregation pipelines, AI/ML automation, and marketplace integrations all compete for the same senior engineering attention behind that promise.
+Arcadia’s value depends on unifying EHR, claims, and SDoH data into useful workflows for payers, health systems, and ACOs. Data pipelines, AI/ML automation, analytics, and marketplace integrations can all compete for the same senior engineering attention.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/arcadia): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Arcadia move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Arcadia move faster without adding headcount?
 
 Best,
 Rayna
@@ -331,11 +331,11 @@ Subject: One Blend Labs workstream worth accelerating
 
 Hi {{first_name}},
 
-Blend Autopilot just went from a 16-week pilot — 25,500+ production loans — to commercially available. An AI agent completing loan origination reviews in 15 seconds is a big claim to back up across every lender rollout, and that's exactly the integration and hardening work that tends to pile up fast after a launch like that.
+Blend Autopilot moving from pilot to commercial availability creates the kind of rollout work that often piles up quickly: lender-specific integrations, workflow hardening, edge cases, and reliability work around a high-stakes AI agent.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/blendlabs): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Blend Labs move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Blend Labs move faster without adding headcount?
 
 Best,
 Rayna
@@ -348,11 +348,11 @@ Subject: One Bloomfire workstream worth accelerating
 
 Hi {{first_name}},
 
-Bloomfire just shipped eight Enterprise Intelligence modules together — Synapse, self-healing knowledge base, AI-powered search and authoring — all launching at once. Grounding every AI answer in a verified source and flagging stale content automatically is a serious reliability bar to hold across that many modules simultaneously.
+Bloomfire’s Enterprise Intelligence work raises a serious reliability bar: AI search, authoring, self-healing knowledge, and verified-source answers all have to behave consistently across customer knowledge bases.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/bloomfire): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Bloomfire move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Bloomfire move faster without adding headcount?
 
 Best,
 Rayna
@@ -365,11 +365,11 @@ Subject: One Blueprint workstream worth accelerating
 
 Hi {{first_name}},
 
-Blueprint just launched AI Documentation and AI Clinical Support together, on top of a free AI-assisted EHR already trusted by 70,000+ therapists. Drafting accurate notes and surfacing the right clinical support mid-session, in real time, doesn't leave much room for a shaky release.
+Blueprint’s AI Documentation and AI Clinical Support work sits in a sensitive clinical workflow: drafting accurate notes and surfacing support in-session leaves very little room for a shaky release or half-finished integration.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/blueprint): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Blueprint move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Blueprint move faster without adding headcount?
 
 Best,
 Rayna
@@ -382,11 +382,11 @@ Subject: One Chargebee workstream worth accelerating
 
 Hi {{first_name}},
 
-Chargebee just shipped Billing for AI and a Chargebee MCP server for the same platform running 6,500+ businesses. Token-metered pricing for gen-AI customers is a different accuracy problem than SaaS subscription billing, and it's landing on the same team that just earned a Gartner Magic Quadrant Leader placement.
+Chargebee’s Billing for AI and MCP work add a new layer to an already complex revenue platform. Token-metered pricing, usage accuracy, customer workflows, and integrations all create delivery pressure around the core roadmap.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/chargebee): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Chargebee move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Chargebee move faster without adding headcount?
 
 Best,
 Rayna
@@ -399,11 +399,11 @@ Subject: One ChurnZero workstream worth accelerating
 
 Hi {{first_name}},
 
-ChurnZero's AI Agents don't just flag customer risk — they act on it autonomously, executing plays and personalizing outreach across 50+ integrations. An agent that's wrong quietly is one thing; an agent that acts on a live account and is wrong is a different reliability bar entirely.
+ChurnZero’s AI Agents do more than flag risk; they act across customer workflows and integrations. That makes reliability, integration depth, and guardrails especially important as agent-driven customer success becomes more central.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/churnzero): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help ChurnZero move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help ChurnZero move faster without adding headcount?
 
 Best,
 Rayna
@@ -416,11 +416,11 @@ Subject: One Clarify Health workstream worth accelerating
 
 Hi {{first_name}},
 
-Clarify just launched Meridian and acquired Loyal Health in the same stretch — unifying referral intelligence, physician activation, and patient activation across 300M+ patient lives and 70+ payment models. That's two major integration efforts landing on one engineering team at once, with outcomes-tied economics that leave no room for a low-stakes release.
+Clarify’s Meridian launch and Loyal Health acquisition create a lot of valuable integration work at once: referral intelligence, physician activation, patient activation, analytics, and outcomes-tied workflows all need to come together cleanly.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/clarifyhealth): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help Clarify Health move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Clarify Health move faster without adding headcount?
 
 Best,
 Rayna
@@ -433,13 +433,285 @@ Subject: One ClickUp workstream worth accelerating
 
 Hi {{first_name}},
 
-ClickUp just launched Super Agents across six teams at once — Intake, Assign, PM, Codegen, and dozens more — all needing to work with "perfect context" across 500+ connected tools. With 3M+ tasks already automated by agents, every new agent adds to a reliability surface that's already running at serious scale.
+ClickUp’s Super Agents push AI deeper into work management across intake, assignment, PM, codegen, and hundreds of connected tools. At that scale, every new agent adds integration and reliability work around the core platform team.
 
-My name is Rayna Weinreb, and I’m with White Rabbit Group. We build embedded delivery pods: senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/clickup): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
 
-Would it be worth a 20-minute conversation to pressure-test one backlog area where a pod could help ClickUp move faster without adding headcount?
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help ClickUp move faster without adding headcount?
 
 Best,
 Rayna
 
 Page: ./clickup.html
+
+## Dovetail
+
+Subject: One Dovetail workstream worth accelerating
+
+Hi {{first_name}},
+
+Dovetail just shipped six AI products as betas in the same cycle — AI Analysis, AI Chat, AI Search, AI Dashboards, AI Docs, and AI Agents — on top of new MCP support and 38+ integrations. That’s a lot of new surface area to harden at once.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/dovetail): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Dovetail move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./dovetail.html
+
+## Doximity
+
+Subject: One Doximity workstream worth accelerating
+
+Hi {{first_name}},
+
+Doximity’s AI suite — Ask, Dialer, and Scribe — is now live at once, each one wired into a network of 3M+ verified clinicians who won’t tolerate a flaky release. That’s three new AI products raising the integration bar simultaneously.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/doximity): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Doximity move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./doximity.html
+
+## Edifecs
+
+Subject: One Edifecs workstream worth accelerating
+
+Hi {{first_name}},
+
+Edifecs’ new Healthcare Interoperability Cloud shipped alongside a 2026 Best in KLAS recognition — a reliability bar that every new payer and provider integration now has to clear.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/edifecs): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Edifecs move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./edifecs.html
+
+## Egnyte
+
+Subject: One Egnyte workstream worth accelerating
+
+Hi {{first_name}},
+
+Egnyte’s Content Cloud now runs four pillars at once — Collaboration, Intelligence, Governance, and Platform — with AI Safeguards purpose-built to keep AI tools from misusing sensitive content. Every other release now has to pass through that same governance layer.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/egnyte): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Egnyte move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./egnyte.html
+
+## Expensify
+
+Subject: One Expensify workstream worth accelerating
+
+Hi {{first_name}},
+
+Expensify’s Concierge AI, card programs, and accounting-sync integrations all compete for the same senior engineering cycles as expense automation keeps getting smarter and more automatic.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/expensify): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Expensify move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./expensify.html
+
+## Feedzai
+
+Subject: One Feedzai workstream worth accelerating
+
+Hi {{first_name}},
+
+Feedzai’s new IQ Score distills $9T in transaction intelligence into a single API call for smarter fraud decisions — a new product surface layered directly on top of the existing RiskOps and AML platform.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/feedzai): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Feedzai move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./feedzai.html
+
+## Health Catalyst
+
+Subject: One Health Catalyst workstream worth accelerating
+
+Hi {{first_name}},
+
+Health Catalyst’s promise is measurable improvement across clinical, financial, and operational data — data unification, AI-assisted benchmarking, and analytics all compete for the same senior engineering capacity behind that promise.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/healthcatalyst): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Health Catalyst move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./healthcatalyst.html
+
+## Housecall Pro
+
+Subject: One Housecall Pro workstream worth accelerating
+
+Hi {{first_name}},
+
+Housecall Pro’s new AI Team — led by CSR AI, a rep that answers calls and books jobs 24/7 — is now running behind every job booked on a platform serving 200,000+ pros. That’s a new always-on layer sitting on top of scheduling, dispatch, and payments.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/housecallpro): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Housecall Pro move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./housecallpro.html
+
+## InMoment
+
+Subject: One InMoment workstream worth accelerating
+
+Hi {{first_name}},
+
+InMoment’s AI-powered approach now spans three connected steps — capturing 2.4x more actionable feedback, cutting analysis time 75% with Smart Summaries, and closing the loop 7x faster. Keeping those numbers real at scale is an integration problem behind the stats.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/inmoment): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help InMoment move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./inmoment.html
+
+## Innovaccer
+
+Subject: One Innovaccer workstream worth accelerating
+
+Hi {{first_name}},
+
+Innovaccer now runs a full stack of named AI agents at once — referral, scheduling, prior auth, coding, fraud detection, and more — all sharing one data foundation, fresh off recognition as a 2026 AI Leader by Black Book. Keeping a dozen agents in sync is a lot of integration work.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/innovaccer): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Innovaccer move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./innovaccer.html
+
+## Ironclad
+
+Subject: One Ironclad workstream worth accelerating
+
+Hi {{first_name}},
+
+Ironclad’s new agentic AI contract partner, Jurist, shipped as the company surpassed $200M in ARR and was named a Leader in the 2025 Gartner Magic Quadrant for CLM. That’s a lot of new AI surface area to harden at enterprise scale.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/ironclad): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Ironclad move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./ironclad.html
+
+## Lightbeam Health
+
+Subject: One Lightbeam Health workstream worth accelerating
+
+Hi {{first_name}},
+
+Lightbeam’s Deviceless RPM just earned back-to-back Best in KLAS awards, and its platform earned Microsoft’s AI Cloud Partner healthcare certification. That’s a reliability bar every new EHR and health-plan integration now has to clear.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/lightbeamhealth): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Lightbeam Health move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./lightbeamhealth.html
+
+## Maxio
+
+Subject: One Maxio workstream worth accelerating
+
+Hi {{first_name}},
+
+Maxio just shipped Billing for AI and a new Model Context Protocol server together — two new surfaces demanding the same integration rigor as the core billing engine that already handles usage-based pricing for B2B SaaS and AI companies.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/maxio): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Maxio move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./maxio.html
+
+## Maze
+
+Subject: One Maze workstream worth accelerating
+
+Hi {{first_name}},
+
+Maze’s new AI Moderator runs interviews autonomously, alongside an AI Study Builder and a new MCP server — three new AI surfaces landing on a platform already reaching 6 million+ participants.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/maze): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Maze move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./maze.html
+
+## MX Technologies
+
+Subject: One MX Technologies workstream worth accelerating
+
+Hi {{first_name}},
+
+MX’s new Conversational Financial Intelligence layer just entered early access — personalized guidance delivered inside a bank’s own experience, built on a platform already processing 170B+ transactions across 13,000+ institutions.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/mxtechnologies): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help MX Technologies move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./mxtechnologies.html
+
+## Ncontracts
+
+Subject: One Ncontracts workstream worth accelerating
+
+Hi {{first_name}},
+
+Ncontracts’ new Nquiry delivers cited, auditable answers to compliance questions in minutes, right inside Ncomply — a new AI layer sitting on top of a platform already trusted by 5,000+ financial institutions.
+
+My name is Rayna Weinreb, and I’m with [White Rabbit Group](https://whiterabbi.group). We build [embedded delivery pods](https://wrg-delivery-pods.vercel.app/ncontracts): senior, 100% in-house teams that take ownership of one defined product or engineering workstream, ship inside your process, and free your core team to stay focused on the platform.
+
+Would it be worth a [20-minute conversation](https://meetings-na2.hubspot.com/rayna-weinreb) to pressure-test one backlog area where a pod could help Ncontracts move faster without adding headcount?
+
+Best,
+Rayna
+
+Page: ./ncontracts.html
