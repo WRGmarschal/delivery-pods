@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Direct2Care Case Study | Delivery Pods — White Rabbit Group</title>
+<meta name="description" content="How a White Rabbit delivery pod stabilized Direct2Care's HIPAA-compliant telehealth app, took ownership of the roadmap, and drove a 4x rise in user adoption.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#080807;
+  --bg-raise:#111110;
+  --ink:#FAFAF9;
+  --muted:#A8A8A4;
+  --faint:#6C6C68;
+  --accent:#E85C50;
+  --line:rgba(250,250,249,.12);
+  --line-soft:rgba(250,250,249,.07);
+  --font:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --serif:"Instrument Serif",Georgia,serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1160px;margin:0 auto;padding:0 32px}
+section{padding:110px 0;border-top:1px solid var(--line-soft)}
+.eyebrow{font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-bottom:22px;display:flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:22px;height:1px;background:var(--accent);display:inline-block}
+h1{font-weight:300;font-size:clamp(46px,8.4vw,104px);letter-spacing:-.035em;line-height:.99}
+h2{font-weight:300;font-size:clamp(36px,5.6vw,68px);letter-spacing:-.035em;line-height:1.04;margin-bottom:28px}
+h3{font-weight:500;font-size:21px;letter-spacing:-.02em}
+.lead{font-size:clamp(17px,1.8vw,20px);color:var(--muted);max-width:640px;font-weight:400;line-height:1.55}
+.accent{color:var(--accent)}
+em.serifish,.pull em,h1 em,h2 em{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.01em}
+
+/* nav */
+nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rgba(8,8,7,.78);border-bottom:1px solid var(--line-soft)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:600;font-size:14.5px;letter-spacing:.02em}
+.logo .dot{width:9px;height:9px;border-radius:50%;background:var(--accent)}
+.nav-links{display:flex;gap:30px;font-size:13px;color:var(--muted)}
+.nav-links a:hover{color:var(--ink)}
+.btn{display:inline-block;border-radius:999px;font-size:12.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;padding:15px 30px;transition:all .2s}
+.btn-solid{background:var(--ink);color:var(--bg)}
+.btn-solid:hover{background:var(--accent);color:var(--ink)}
+.btn-ghost{border:1px solid var(--line);padding:13px 24px}
+.btn-ghost:hover{border-color:var(--ink)}
+nav .btn{padding:11px 22px}
+
+/* hero */
+.hero{padding:130px 0 90px;border-top:none}
+.hero .tag{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:999px;padding:7px 16px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:34px}
+.hero .tag .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.hero .lead{margin-top:34px}
+.hero-ctas{margin-top:44px;display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.hero-meta{margin-top:70px;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line-soft);border:1px solid var(--line-soft)}
+.hero-meta div{background:var(--bg);padding:22px 24px}
+.hero-meta .k{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-bottom:6px}
+.hero-meta .v{font-size:15.5px;font-weight:500}
+
+/* media band */
+.media-band{padding:0;border-top:none}
+.media-band .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:14px}
+.media-band img{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line-soft)}
+
+/* stuck grid */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}
+.stuck-list{display:flex;flex-direction:column}
+.stuck-item{display:flex;gap:26px;padding:30px 0;border-top:1px solid var(--line-soft)}
+.stuck-item:last-child{border-bottom:1px solid var(--line-soft)}
+.stuck-item .num{font-size:13px;color:var(--accent);font-weight:500;padding-top:4px;min-width:28px}
+.stuck-item p{color:var(--muted);font-size:16px;margin-top:6px;font-weight:400}
+.pull{font-size:clamp(24px,3.4vw,40px);font-weight:300;letter-spacing:-.02em;line-height:1.45;color:var(--ink)}
+.pull .accent{font-family:var(--serif);font-style:italic;font-weight:400}
+
+/* pod model cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:56px}
+.card{background:var(--bg-raise);border:1px solid var(--line-soft);border-radius:14px;padding:30px 28px}
+.card .role{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:14px}
+.card h3{margin-bottom:10px}
+.card p{color:var(--muted);font-size:15.5px;font-weight:400}
+
+/* sprint timeline — animated */
+.timeline{margin-top:60px;display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.tl{padding-top:16px;position:relative}
+.tl::after{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:var(--line);transform:scaleX(0);transform-origin:left}
+.tl::before{content:"";position:absolute;top:-3px;left:0;width:8px;height:8px;border-radius:50%;background:var(--faint);z-index:1;opacity:0;transform:scale(.4)}
+.tl.hot::after{background:var(--accent)}
+.tl.hot::before{background:var(--accent)}
+.timeline.go .tl::after{animation:draw .55s ease forwards}
+.timeline.go .tl::before{animation:pop .45s ease forwards}
+.timeline.go .tl:nth-child(1)::after{animation-delay:.1s}.timeline.go .tl:nth-child(1)::before{animation-delay:.1s}
+.timeline.go .tl:nth-child(2)::after{animation-delay:.55s}.timeline.go .tl:nth-child(2)::before{animation-delay:.55s}
+.timeline.go .tl:nth-child(3)::after{animation-delay:1s}.timeline.go .tl:nth-child(3)::before{animation-delay:1s}
+.timeline.go .tl:nth-child(4)::after{animation-delay:1.45s}.timeline.go .tl:nth-child(4)::before{animation-delay:1.45s}
+.timeline.go .tl:nth-child(5)::after{animation-delay:1.9s}.timeline.go .tl:nth-child(5)::before{animation-delay:1.9s}
+.timeline.go .tl.hot:last-child::before{animation:pop .45s ease 1.9s forwards, pulse 2.6s ease-in-out 2.6s infinite}
+@keyframes draw{to{transform:scaleX(1)}}
+@keyframes pop{to{opacity:1;transform:scale(1)}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(232,92,80,.45)}50%{box-shadow:0 0 0 9px rgba(232,92,80,0)}}
+@media(prefers-reduced-motion:reduce){.tl::after{transform:none;animation:none!important}.tl::before{opacity:1;transform:none;animation:none!important}.rv{opacity:1;transform:none}}
+.tl .ph{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:6px}
+.tl h3{font-size:15.5px;margin-bottom:6px}
+.tl p{font-size:13.5px;color:var(--muted);font-weight:300}
+
+/* under the hood imagery */
+.hood{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:14px;margin-top:64px}
+.hood figure{position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--line-soft);margin:0}
+.hood img{width:100%;height:280px;object-fit:cover;filter:saturate(.55) contrast(1.05) brightness(.82);transition:filter .5s ease,transform .5s ease}
+.hood figure:hover img{filter:saturate(.9) contrast(1.05) brightness(.95);transform:scale(1.025)}
+.hood figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px 18px;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);background:linear-gradient(transparent,rgba(8,8,7,.85))}
+.hood figcaption b{color:var(--ink);font-weight:500}
+
+/* results */
+.results-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:56px}
+.result{background:var(--bg-raise);border:1px solid var(--line-soft);border-radius:14px;padding:36px 32px;position:relative}
+.result .big{font-weight:300;font-size:clamp(38px,4.5vw,56px);letter-spacing:-.03em;line-height:1;margin-bottom:14px}
+.result .big .accent{font-weight:400}
+.result h3{margin-bottom:8px}
+.result p{color:var(--muted);font-size:15.5px;font-weight:400}
+.result .idx{position:absolute;top:30px;right:30px;font-size:12px;color:var(--faint)}
+
+/* quoteband */
+.band{background:var(--bg-raise);border-radius:20px;border:1px solid var(--line-soft);padding:70px 60px;text-align:center}
+.band h2{margin-bottom:16px}
+.band p{color:var(--muted);max-width:560px;margin:0 auto 36px;font-weight:300}
+
+/* fits */
+.fit-list{margin-top:50px;display:flex;flex-direction:column}
+.fit{display:flex;gap:22px;align-items:baseline;padding:24px 0;border-top:1px solid var(--line-soft);font-size:clamp(17px,2vw,21px);font-weight:300}
+.fit:last-child{border-bottom:1px solid var(--line-soft)}
+.fit .arr{color:var(--accent)}
+
+/* footer */
+footer{border-top:1px solid var(--line-soft);padding:60px 0 40px;color:var(--faint);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer a{color:var(--muted)}
+footer a:hover{color:var(--ink)}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.rv.on{opacity:1;transform:none}
+
+@media(max-width:900px){
+  .grid2{grid-template-columns:1fr;gap:44px}
+  .cards{grid-template-columns:1fr}
+  .results-grid{grid-template-columns:1fr}
+  .timeline{grid-template-columns:1fr 1fr;gap:24px}
+  .hood{grid-template-columns:1fr}
+  .hood img{height:220px}
+  .hero-meta{grid-template-columns:1fr 1fr}
+  .media-band .wrap{grid-template-columns:1fr}
+  .nav-links{display:none}
+  .band{padding:50px 28px}
+  section{padding:80px 0}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="/"><span class="dot"></span>White Rabbit Group</a>
+    <div class="nav-links">
+      <a href="#situation">The Situation</a>
+      <a href="#pod">The Pod</a>
+      <a href="#how">How We Shipped</a>
+      <a href="#results">Results</a>
+    </div>
+    <a class="btn btn-solid" href="https://meetings-na2.hubspot.com/rayna-weinreb">Book a call</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="tag rv"><span class="dot"></span>Case Study · Healthcare · Web &amp; Mobile</div>
+    <h1 class="rv">An unstable MVP.<br>A stalled roadmap.<br><em class="serifish accent">One pod.</em></h1>
+    <p class="lead rv">Direct2Care's telehealth app was live on iOS and Android — and stuck. A reactive agency model, a shaky MVP, and HIPAA-compliant infrastructure stretched past its limits. A White Rabbit delivery pod took ownership, stabilized the product, and turned the backlog into a shipped roadmap.</p>
+    <div class="hero-ctas rv">
+      <a class="btn btn-solid" href="https://meetings-na2.hubspot.com/rayna-weinreb">Book a scoping call</a>
+      <a class="btn btn-ghost" href="#results">See the results</a>
+    </div>
+    <div class="hero-meta rv">
+      <div><div class="k">Client</div><div class="v">Direct2Care</div></div>
+      <div><div class="k">Industry</div><div class="v">Virtual healthcare</div></div>
+      <div><div class="k">Platform</div><div class="v">iOS · Android · HIPAA</div></div>
+      <div><div class="k">Headline result</div><div class="v"><span class="accent">4×</span> user adoption</div></div>
+    </div>
+  </div>
+</header>
+
+<section class="media-band">
+  <div class="wrap rv">
+    <img src="https://cdn.whiterabbit.group/images/redesign/temp/direct2care-media1.avif" alt="Direct2Care app interface">
+    <img src="https://cdn.whiterabbit.group/images/redesign/temp/direct2care-media2.avif" alt="Direct2Care app screens">
+  </div>
+</section>
+
+<section id="situation">
+  <div class="wrap">
+    <div class="grid2">
+      <div class="rv">
+        <div class="eyebrow">The situation</div>
+        <h2>Live in production. <em>Stuck</em> in place.</h2>
+        <p class="pull">It wasn't a talent problem. It was a <span class="accent">delivery</span> problem — no cadence, no clear owner, no path from stabilization to roadmap.</p>
+      </div>
+      <div class="stuck-list rv">
+        <div class="stuck-item">
+          <div class="num">01</div>
+          <div><h3>A reactive agency model</h3><p>The previous agency worked request-by-request. Nothing compounding, nothing owned — and a transition that had to be handled strategically and respectfully.</p></div>
+        </div>
+        <div class="stuck-item">
+          <div class="num">02</div>
+          <div><h3>An unstable MVP</h3><p>Significant environment mismatches between development and production caused inconsistent releases that reached real patients.</p></div>
+        </div>
+        <div class="stuck-item">
+          <div class="num">03</div>
+          <div><h3>Infrastructure past its limits</h3><p>HIPAA-compliant infrastructure built for an MVP, carrying a growing production workload it was never designed for.</p></div>
+        </div>
+        <div class="stuck-item">
+          <div class="num">04</div>
+          <div><h3>Onboarding friction</h3><p>An unintuitive registration flow was turning away the users the marketing spend was bringing in.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pod">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">What we dropped in</div>
+      <h2>A pod, not a pile<br>of contractors.</h2>
+      <p class="lead">One small, senior team took ownership of Direct2Care's product end to end — one accountable owner, one defined delivery process, one outcome.</p>
+    </div>
+    <div class="cards rv">
+      <div class="card">
+        <div class="role">Outcome Owner™</div>
+        <h3>One accountable owner</h3>
+        <p>Ran the backlog, owned the communication protocol, and gave Direct2Care a single point of contact — replacing ad-hoc requests with regular syncs and real visibility.</p>
+      </div>
+      <div class="card">
+        <div class="role">Delivery Architect</div>
+        <h3>Technical design, owned</h3>
+        <p>Aligned development and production environments, hardened the HIPAA-compliant infrastructure, and set the architecture for what came next.</p>
+      </div>
+      <div class="card">
+        <div class="role">Engineers + QA</div>
+        <h3>Build, test, ship</h3>
+        <p>Senior-led execution on a sprint cadence with defined milestones — from stabilization work through new feature delivery like Find&nbsp;Me lookup.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">How the work got done</div>
+      <h2>No black boxes.<br>A demo <em>every</em> sprint.</h2>
+      <p class="lead">The same delivery discipline behind every White Rabbit pod: a defined cadence, a clear definition of done, and visible momentum week over week.</p>
+    </div>
+    <div class="timeline rv">
+      <div class="tl hot"><div class="ph">Phase 1</div><h3>Structured handoff</h3><p>A defined transition plan with milestones took over from the previous agency — no downtime, no drama.</p></div>
+      <div class="tl"><div class="ph">Phase 2</div><h3>Stabilize the MVP</h3><p>Dev and production environments aligned for uniform, predictable releases.</p></div>
+      <div class="tl"><div class="ph">Phase 3</div><h3>Sprint cadence</h3><p>Sprint-based development with regular syncs replaced the reactive request queue.</p></div>
+      <div class="tl"><div class="ph">Phase 4</div><h3>Ship what matters</h3><p>The Find Me lookup feature streamlined registration and cut onboarding friction.</p></div>
+      <div class="tl hot"><div class="ph">Ongoing</div><h3>Own the roadmap</h3><p>From firefighting to a forward-looking product plan built for scalable growth.</p></div>
+    </div>
+    <div class="hood rv">
+      <figure>
+        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=60" alt="Server infrastructure in a data center" loading="lazy">
+        <figcaption><b>Production-grade infrastructure</b> · HIPAA-compliant, hardened</figcaption>
+      </figure>
+      <figure>
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=60" alt="Code in a dark editor" loading="lazy">
+        <figcaption><b>Pre-PR review</b> · every line, every sprint</figcaption>
+      </figure>
+      <figure>
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=60" alt="Developer's screen showing application code" loading="lazy">
+        <figcaption><b>CI &amp; QA automation</b> · release safety built in</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="results">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Results</div>
+      <h2>From firefighting<br>to a <em>shipped</em> roadmap.</h2>
+    </div>
+    <div class="results-grid rv">
+      <div class="result">
+        <div class="idx">01</div>
+        <div class="big"><span class="accent">4×</span> user adoption</div>
+        <h3>Onboarding conversion quadrupled</h3>
+        <p>The Find Me lookup feature quadrupled onboarding conversion rates and user adoption within three months of shipping.</p>
+      </div>
+      <div class="result">
+        <div class="idx">02</div>
+        <div class="big">Stable <span class="accent">releases</span></div>
+        <h3>MVP stabilized for daily operations</h3>
+        <p>Aligned environments ended the production inconsistencies — consistent day-to-day operations for a live healthcare product.</p>
+      </div>
+      <div class="result">
+        <div class="idx">03</div>
+        <div class="big">Downloads <span class="accent">↑</span></div>
+        <h3>Growth marketing finally converted</h3>
+        <p>The improved onboarding flow, paired with Direct2Care's marketing push, drove increased app downloads.</p>
+      </div>
+      <div class="result">
+        <div class="idx">04</div>
+        <div class="big">Roadmap <span class="accent">owned</span></div>
+        <h3>Milestones cleared, focus reclaimed</h3>
+        <p>The pod moved from stabilization to feature enhancement — freeing Direct2Care's team to focus on growth and long-term product development.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="grid2">
+      <div class="rv">
+        <div class="eyebrow">Why it worked</div>
+        <h2>The model, not the <em>heroics</em>.</h2>
+        <p class="lead">Direct2Care didn't get a bigger team. It got a defined delivery process: one accountable owner, a sprint cadence with demos, and a clear definition of done. That's the same model our delivery pods run today — now AI-native, so a small senior team moves at the pace of a large one.</p>
+      </div>
+      <div class="fit-list rv">
+        <div class="fit"><span class="arr">→</span>An inherited codebase or agency transition to manage</div>
+        <div class="fit"><span class="arr">→</span>A product that's live but unstable</div>
+        <div class="fit"><span class="arr">→</span>A backlog that keeps beating the roadmap</div>
+        <div class="fit"><span class="arr">→</span>Compliance requirements you can't get wrong</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="band rv">
+      <div class="eyebrow" style="justify-content:center">Let's talk</div>
+      <h2>Got a Direct2Care<br><em>of your own?</em></h2>
+      <p>A 30-minute scoping call. We'll pick a candidate slice of your roadmap and tell you straight whether a pod is the right call.</p>
+      <a class="btn btn-solid" href="https://meetings-na2.hubspot.com/rayna-weinreb">Book a scoping call</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div style="color:var(--ink);font-weight:600;margin-bottom:6px">White Rabbit Group</div>
+      Delivery Pods — ship the roadmap your team can't get to.<br>© 2026 White Rabbit Group · <a href="https://whiterabbit.group">whiterabbit.group</a>
+    </div>
+    <div>
+      <a href="mailto:rayna.weinreb@whiterabbit.group">Rayna Weinreb — Account Manager</a><br>
+      <a href="mailto:marschal.bellinger@whiterabbit.group">Marschal Bellinger, PhD — Director of Services</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  function init(){
+    var rvs=document.querySelectorAll('.rv');
+    var tl=document.querySelector('.timeline');
+    function showAll(){rvs.forEach(function(el){el.classList.add('on')});if(tl)tl.classList.add('go')}
+    if(!('IntersectionObserver' in window)){showAll();return}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -5% 0px'});
+    rvs.forEach(function(el){io.observe(el)});
+    if(tl){
+      var fire=function(){if(!tl.classList.contains('go'))tl.classList.add('go')};
+      var io2=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){fire();io2.unobserve(tl)}})},{threshold:.2});
+      io2.observe(tl);
+      // fallback: if already in view or observer never fires, trigger on first scroll past it
+      var check=function(){var r=tl.getBoundingClientRect();if(r.top<window.innerHeight*.85&&r.bottom>0){fire();window.removeEventListener('scroll',check)}};
+      window.addEventListener('scroll',check,{passive:true});
+      check();
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',init)}else{init()}
+})();
+</script>
+</body>
+</html>
