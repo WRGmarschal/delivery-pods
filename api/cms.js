@@ -29,24 +29,26 @@ module.exports = async function handler(req, res) {
       });
     }
 
-    if (req.method === "POST" && req.body?.action === "save") {
+    if (req.method === "POST" && ["save", "create"].includes(req.body?.action)) {
       const path = safePagePath(req.body.path);
       if (typeof req.body.content !== "string" || !req.body.content.includes("<!DOCTYPE html>")) {
         return send(res, 400, { error: "The submitted page is not valid HTML" });
       }
-      if (!/^[a-f0-9]{40}$/.test(req.body.sha || "")) return send(res, 400, { error: "Missing file version" });
+      const creating = req.body.action === "create";
+      if (!creating && !/^[a-f0-9]{40}$/.test(req.body.sha || "")) return send(res, 400, { error: "Missing file version" });
       const company = path.replace(/\.html$/, "").replace(/-/g, " ");
+      const payload = {
+        message: `CMS: ${creating ? "create" : "update"} ${company}`,
+        content: Buffer.from(req.body.content, "utf8").toString("base64"),
+        branch: branch(),
+      };
+      if (!creating) payload.sha = req.body.sha;
       const result = await github(`/repos/${repo}/contents/${encodeURIComponent(path)}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          message: `CMS: update ${company}`,
-          content: Buffer.from(req.body.content, "utf8").toString("base64"),
-          sha: req.body.sha,
-          branch: branch(),
-        }),
+        body: JSON.stringify(payload),
       });
-      return send(res, 200, { sha: result.content.sha, commit: result.commit.html_url });
+      return send(res, 200, { path, sha: result.content.sha, commit: result.commit.html_url, created: creating });
     }
 
     return send(res, 405, { error: "Unsupported CMS action" });

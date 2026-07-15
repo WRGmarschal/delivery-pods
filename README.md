@@ -2,9 +2,10 @@
 
 ## Pod Pages CMS
 
-The private editor is available at `/admin/`. It edits the existing HTML pages,
-shows a live preview, uses OpenAI to propose copy changes, and publishes approved
-changes to GitHub so Vercel can deploy them.
+The private editor is available at `/admin/`. It edits existing HTML pages,
+creates or duplicates pages from proven layouts, lets editors add and reorder
+reusable section blocks, shows desktop and mobile previews, uses OpenAI to draft
+or revise copy, and publishes approved changes to GitHub so Vercel can deploy them.
 
 Configure these environment variables in Vercel:
 
